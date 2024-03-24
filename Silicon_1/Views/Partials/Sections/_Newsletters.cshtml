@@ -1,4 +1,6 @@
-﻿<section class="newsletters">
+﻿@model SubscribeViewModel
+
+<section class="newsletters">
 
     <div class="container">
 
@@ -7,18 +9,10 @@
             <img src="/images/icons/newsletters/arrows.svg" />
         </div>
 
-        <div class="news-checkbox">
-            <div class="news-signtitle">
-                <h5>Sign up for Newsletters</h5>
-            </div>
-            <div class="checkboxes">
+        <form method="post" asp-action="Subscribe" asp-controller="Home">
 
-            </div>
-        </div>
 
-        <div class="email-sub">
-
-        </div>
+        </form>
 
     </div>
 </section>
