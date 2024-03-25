@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\wwwroot\\css\\scss\\sections\\_signin.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\wwwroot\\css\\scss\\sections\\_signin.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\wwwroot\\css\\scss\\sections\\_newsletters.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\wwwroot\\css\\scss\\sections\\_newsletters.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\wwwroot\\css\\scss\\_sections.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\wwwroot\\css\\scss\\_sections.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\partials\\sections\\_newsletters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\partials\\sections\\_newsletters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,60 +30,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_sections.scss",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\_sections.scss",
-              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\css\\scss\\_sections.scss",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\_sections.scss",
-              "RelativeToolTip": "Silicon_1\\wwwroot\\css\\scss\\_sections.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-03-24T17:42:58.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Auth\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "Silicon_1\\Views\\Auth\\SignIn.cshtml",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Auth\\SignIn.cshtml",
-              "RelativeToolTip": "Silicon_1\\Views\\Auth\\SignIn.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Title": "_Newsletters.cshtml",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "RelativeDocumentMoniker": "Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "RelativeToolTip": "Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T17:32:46.716Z",
+              "WhenOpened": "2024-03-25T17:23:16.803Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 146,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Program.cs",
-              "RelativeDocumentMoniker": "Silicon_1\\Program.cs",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Program.cs",
-              "RelativeToolTip": "Silicon_1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Silicon_1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Silicon_1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T18:07:45.778Z",
+              "WhenOpened": "2024-03-25T17:47:59.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_signin.scss",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_signin.scss",
-              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\css\\scss\\sections\\_signin.scss",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_signin.scss",
-              "RelativeToolTip": "Silicon_1\\wwwroot\\css\\scss\\sections\\_signin.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Title": "_newsletters.scss",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_newsletters.scss",
+              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\css\\scss\\sections\\_newsletters.scss",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_newsletters.scss",
+              "RelativeToolTip": "Silicon_1\\wwwroot\\css\\scss\\sections\\_newsletters.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-03-24T17:44:28.54Z",
+              "WhenOpened": "2024-03-25T17:40:24.165Z",
               "EditorCaption": ""
             }
           ]
