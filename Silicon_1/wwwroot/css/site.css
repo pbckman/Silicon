@@ -181,6 +181,67 @@
   color: var(--color-gray-200);
 }
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+form {
+  width: 100%;
+  display: grid;
+  font-size: 16px;
+}
+form .input-group {
+  display: grid;
+  margin-bottom: 20px;
+}
+form input[type=checkbox] {
+  height: 18px;
+  width: 18px;
+  margin: 0;
+}
+form button {
+  width: 100%;
+}
+form input {
+  font-size: 1em;
+  font-family: "manrope";
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-gray-400);
+}
+form input::placeholder {
+  opacity: 0.5;
+}
+
 header .container {
   font-family: var(--font-manrope);
   color: var(--color-gray-700);
@@ -694,11 +755,65 @@ header a {
 
 .newsletters {
   background-color: var(--color-gray-100);
-  padding: 4rem 0;
+  font-family: var(--font-manrope);
+}
+.newsletters .container {
+  padding: 8rem 0;
+  width: 100vh;
 }
 .newsletters .container .news-title {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+.newsletters .container .news-title h2 {
+  font-family: var(--font-manrope);
+  color: var(--color-gray-900);
+  font-size: 2.5em;
+  font-weight: var(--font-weight-extrabold);
+}
+.newsletters .container form .options-title {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.newsletters .container form .options-title .title {
+  width: 90%;
+}
+.newsletters .container form .options-title .title h4 {
+  font-weight: 900;
+  color: var(--font-color-gray-900);
+  font-size: 20px;
+}
+.newsletters .container form .options-title .options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.newsletters .container form .options-title .options .input-group {
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--font-color-gray-700);
+}
+.newsletters .container form .email {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+.newsletters .container form .email i {
+  display: flex;
+  position: absolute;
+  margin-left: 10px;
+}
+.newsletters .container form .email .input-group {
+  align-items: center;
+}
+.newsletters .container form .email .subscribe-newsletter {
+  width: 40%;
+  height: 75%;
 }
 
 footer {
@@ -739,4 +854,113 @@ footer .container .copyright span {
   footer .container .copyright span {
     display: inline;
   }
+}
+
+.sign-in {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  align-items: center;
+  font-family: var(--font-manrope);
+}
+.sign-in a {
+  text-decoration: none;
+  color: var(--color-theme);
+}
+.sign-in .container {
+  width: 30%;
+  align-items: center;
+}
+.sign-in .container .sign-title h1 {
+  font-family: var(--font-manrope);
+  color: var(--color-gray-900);
+  font-size: 2.5em;
+  font-weight: var(--font-weight-extrabold);
+}
+.sign-in .container .sign-title .no-account {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  color: var(--color-gray-700);
+}
+.sign-in .container form .alert {
+  margin: 0;
+  padding: 10px;
+}
+.sign-in .container form .input-group {
+  color: var(--color-gray-900);
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
+}
+.sign-in .container form .checkbox-group input[type=checkbox] {
+  margin-right: 10px;
+}
+.sign-in .container form .checkbox-group .input-group {
+  display: flex;
+  align-items: center;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-gray-700);
+}
+.sign-in .container form .forgot-link {
+  text-align: center;
+  padding: 15px;
+}
+.sign-in .container form .forgot-link a {
+  font-weight: var(--font-weight-semibold);
+}
+.sign-in .container form button {
+  font-size: 16px;
+}
+
+.sign-up {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  align-items: center;
+  font-family: var(--font-manrope);
+}
+.sign-up a {
+  text-decoration: none;
+  color: var(--color-theme);
+}
+.sign-up .container {
+  width: 30%;
+  align-items: center;
+}
+.sign-up .container .sign-title h1 {
+  font-family: var(--font-manrope);
+  color: var(--color-gray-900);
+  font-size: 2.5em;
+  font-weight: var(--font-weight-extrabold);
+}
+.sign-up .container .sign-title .no-account {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  color: var(--color-gray-700);
+}
+.sign-up .container form .signup-name {
+  display: flex;
+  gap: 20px;
+}
+.sign-up .container form .input-group {
+  color: var(--color-gray-900);
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
+}
+.sign-up .container form .checkbox-group input[type=checkbox] {
+  margin-right: 10px;
+}
+.sign-up .container form .checkbox-group .input-group {
+  display: flex;
+  align-items: center;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-gray-700);
+}
+.sign-up .container form .alert {
+  margin: 0;
+  padding: 10px;
+}
+.sign-up .container form button {
+  font-size: 16px;
 }

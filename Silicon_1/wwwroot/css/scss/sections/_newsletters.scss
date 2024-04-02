@@ -1,12 +1,81 @@
 .newsletters {
     background-color: var(--color-gray-100);
-    padding: 4rem 0;
+    @include font;
 
     .container {
+        padding: 8rem 0;
+        width: 100vh;
 
         .news-title {
             display: flex;
             align-items: center;
+            gap: 40px;
+
+            h2 {
+                @include font-h1;
+            }
+        }
+
+        form {
+
+
+
+            .options-title {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                margin-bottom: 20px;
+                margin-top: 20px;
+
+
+
+                .title {
+                    width: 90%;
+
+                    h4 {
+                        font-weight: 900;
+                        color: var(--font-color-gray-900);
+                        font-size: 20px;
+                    }
+                }
+
+
+
+                .options {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+
+
+                    .input-group {
+                        margin-bottom: 0px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        font-size: 14px;
+                        color: var(--font-color-gray-700);
+                    }
+                }
+            }
+
+            .email {
+                position: relative;
+                display: flex;
+                gap: 20px;
+
+                i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 10px;
+                }
+
+                .input-group {
+                    align-items: center;
+                }
+
+                .subscribe-newsletter {
+                    width: 40%;
+                    height: 75%;
+                }
+            }
         }
     }
 }

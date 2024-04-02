@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\css\\scss\\components\\_buttons.scss"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\components\\_container.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_container.scss"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_forms.scss"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\components\\_switches.scss",
       "PackagePath": "staticwebassets\\css\\scss\\components\\_switches.scss"
     },
@@ -67,6 +75,10 @@
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_signin.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_signin.scss"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_signup.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_signup.scss"
     },
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_switchmode.scss",

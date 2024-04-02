@@ -5,7 +5,7 @@ namespace Silicon_1.Models;
 public class SignInViewModel
 {
     [Required]
-    [Display(Name = "Email address", Prompt = "Enter your email address")]
+    [Display(Name = "Email", Prompt = "Enter your email address")]
     [DataType(DataType.EmailAddress)]
     public string Email { get; set; } = null!;
 

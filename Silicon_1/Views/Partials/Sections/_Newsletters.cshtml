@@ -11,8 +11,14 @@
 
         <form method="post" asp-action="Subscribe" asp-controller="Home">
             
+            <div class="options-title">
+                <div class="title">
+                    <h4>Sign up for Newsletters</h4> 
+                </div>
+                
+            
+
             <div class="options">
-                <h4>Sign up for Newsletters</h4>
                 <div class="checkbox-group">
                     <div class="input-group">
                         <input asp-for="DailyNewsletter" />
@@ -50,12 +56,14 @@
                     </div>
                 </div>
             </div>
+            </div>
 
             <div class="email">
                 <div class="input-group">
+                    <i class="fa-regular fa-envelope"></i>
                     <input asp-for="Email" />
                 </div>
-                <button class="btn-theme" type="submit">Subscribe *</button>
+                <button class="subscribe-newsletter btn-theme" type="submit">Subscribe *</button>
             </div>
         </form>
 

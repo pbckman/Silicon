@@ -30,6 +30,6 @@ public class SignUpViewModel
     public string ConfirmPassword { get; set; } = null!;
 
     [CheckboxValidation]
-    [Display(Name = "Terms & Conditions", Prompt = "I agree to the terms and conditions")]
+    [Display(Name = "I agree to the Terms & Conditions", Prompt = "I agree to the terms and conditions")]
     public bool TermsAndConditions { get; set; }
 }

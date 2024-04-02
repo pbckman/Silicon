@@ -8,7 +8,7 @@
     <div class="container">
 
         <div class="sign-title">
-            <h1>Welcome back</h1>
+            <h1>Welcome Back</h1>
             <div class="no-account">
                 <p>Don’t have an account yet?</p>
                 <a asp-action="SignUp" asp-controller="Auth">Sign up here</a>
@@ -16,19 +16,19 @@
         </div>
 
 
-        <div class="sign-form">
+        
         <form method="post" asp-action="SignIn" asp-controller="Auth">
 
             <div class="alert">
                 @ViewData["StatusMessage"]
             </div>
-
-            <div class="input group">
+                
+            <div class="input-group">
                 <label asp-for="Email"></label>
                 <input asp-for="Email" />
             </div>
 
-            <div class="input group">
+            <div class="input-group">
                 <label asp-for="Password"></label>
                 <input asp-for="Password" />
             </div>
@@ -43,10 +43,14 @@
             <div class="forgot-password">
             <button class="btn-theme" type="submit">Sign In</button>
 
-                <a asp-action="SignUp" asp-controller="Auth">Forgot your password?</a>
+               
                 </div>
+            <div class="forgot-link">
+                <a asp-action="SignUp" asp-controller="Auth">Forgot your password?</a>
+            </div>
+            
         </form>
-        </div>
+        
         
     </div>
 </section>
