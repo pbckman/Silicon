@@ -1,12 +1,11 @@
-﻿@inject SignInManager<UserEntity> _signInManager
+﻿@{
+    var theme = Context.Request.Cookies["theme"] ?? "light";
+    var isDarkmode = (theme == "dark") ? true : false;
+}
 
-@if (_signInManager.IsSignedIn(User))
-{
-    
-
-    <header>
+<header>
         <div class="container">
-            <a class="logo" asp-action="Index" asp-controller="Home"><img src="~/images/logo/silicon-logo.svg" alt="Silicon" /></a>
+            <a class="logo" asp-action="Index" asp-controller="Home"><img src="~/images/logo/logo-@(theme).svg" alt="Silicon" /></a>
 
             <nav>
                 <a asp-action="Index" asp-controller="Home">Overview</a>
@@ -14,19 +13,25 @@
                 <a asp-action="Contact" asp-controller="Default">Contact</a>
             </nav>
 
-            <div class="theme-switch">
-                <label for="theme-switch-mode">Light</label>
-                <label class="switch">
-                    <input id="theme-switch-mode" type="checkbox">
+            <div class="theme-switch" id="btn-switch">
+                <label>Light</label>
+                <label class="switch" for="switch-mode">
+                    <input type="checkbox"  id="switch-mode" checked="@isDarkmode" />
                     <span class="slider round"></span>
                 </label>
-                <label for="theme-switch-mode">Dark</label>
+                <label>Dark</label>
             </div>
 
             <div class="account-buttons">
-
-                @User.Identity?.Name
+            @if (_signInManager.IsSignedIn(User))
+            {
                 <a class="btn-secondary" asp-action="SignOut" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign out</a>
+            }
+            else
+            {
+                <a class="btn-secondary" asp-action="SignIn" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign in</a>
+                <a class="btn-theme" asp-action="SignUp" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign up</a>
+            }
                 
             </div>
 
@@ -34,38 +39,7 @@
 
         </div>
     </header>
-}
-else
-{
-    <header>
-        <div class="container">
-            <a class="logo" asp-action="Index" asp-controller="Home"><img src="~/images/logo/silicon-logo.svg" alt="Silicon" /></a>
 
-            <nav>
-                <a asp-action="Index" asp-controller="Home">Overview</a>
-                <a asp-action="Index" asp-controller="Home">Features</a>
-                <a asp-action="Contact" asp-controller="Default">Contact</a>
-            </nav>
-
-            <div class="theme-switch">
-                <label for="theme-switch-mode">Light</label>
-                <label class="switch">
-                    <input id="theme-switch-mode" type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <label for="theme-switch-mode">Dark</label>
-            </div>
-
-            <div class="account-buttons">
-                <a class="btn-secondary" asp-action="SignIn" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign in</a>
-                <a class="btn-theme" asp-action="SignUp" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign up</a>
-            </div>
-
-            <button class="btn-menu"><i class="fa-regular fa-bars"></i></button>
-
-        </div>
-    </header>
-}
 
 
 

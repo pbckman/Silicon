@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b/paGU3OJfy+fqJbSqgSHmuUhmQWn0rmdglNrP3Trhg=",
+  "Hash": "PWQq8sKpfushUWMBadlEjfdfNHJWrrYpRjO/t2VUCRA=",
   "Source": "Silicon_1",
   "BasePath": "_content/Silicon_1",
   "Mode": "Default",
@@ -986,12 +986,12 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\favicon.svg"
     },
     {
-      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\logo\\silicon-logo.svg",
+      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\logo\\logo-dark.svg",
       "SourceId": "Silicon_1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
       "BasePath": "_content/Silicon_1",
-      "RelativePath": "images/logo/silicon-logo.svg",
+      "RelativePath": "images/logo/logo-dark.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1002,7 +1002,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo\\silicon-logo.svg"
+      "OriginalItemSpec": "wwwroot\\images\\logo\\logo-dark.svg"
+    },
+    {
+      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\logo\\logo-light.svg",
+      "SourceId": "Silicon_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
+      "BasePath": "_content/Silicon_1",
+      "RelativePath": "images/logo/logo-light.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo\\logo-light.svg"
     },
     {
       "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\managework\\check-circle.svg",

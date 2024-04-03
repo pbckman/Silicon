@@ -205,8 +205,12 @@
       "PackagePath": "staticwebassets\\images\\logo\\favicon.svg"
     },
     {
-      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\logo\\silicon-logo.svg",
-      "PackagePath": "staticwebassets\\images\\logo\\silicon-logo.svg"
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\logo\\logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-dark.svg"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\logo\\logo-light.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-light.svg"
     },
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\managework\\check-circle.svg",
