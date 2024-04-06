@@ -10,7 +10,11 @@
             <nav>
                 <a asp-action="Index" asp-controller="Home">Overview</a>
                 <a asp-action="Index" asp-controller="Home">Features</a>
-                <a asp-action="Contact" asp-controller="Default">Contact</a>
+            @if (_signInManager.IsSignedIn(User))
+            {
+                <a asp-action="Index" asp-controller="Courses">Courses</a>
+            }
+            <a asp-action="Contact" asp-controller="Default">Contact</a>
             </nav>
 
             <div class="theme-switch" id="btn-switch">

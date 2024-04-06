@@ -144,3 +144,4 @@ C:\Skoluppgifter\ASPNET_1\Silicon_1\Silicon_1\obj\Debug\net8.0\Silicon_1.csproj.
 C:\Skoluppgifter\ASPNET_1\Silicon_1\Silicon_1\obj\Debug\net8.0\Silicon_1.MvcApplicationPartsAssemblyInfo.cs
 C:\Skoluppgifter\ASPNET_1\Silicon_1\Silicon_1\obj\Debug\net8.0\Silicon_1.sourcelink.json
 C:\Skoluppgifter\ASPNET_1\Silicon_1\Silicon_1\obj\Debug\net8.0\Silicon_1.csproj.Up2Date
+C:\Skoluppgifter\ASPNET_1\Silicon_1\Silicon_1\bin\Debug\net8.0\Newtonsoft.Json.dll
