@@ -277,6 +277,14 @@
       "PackagePath": "staticwebassets\\images\\profiles\\avatar.svg"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_819c72d4-7597-498d-9e5a-57e71a72058f.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_819c72d4-7597-498d-9e5a-57e71a72058f.svg"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\showcase\\taskmaster-twisted.svg",
       "PackagePath": "staticwebassets\\images\\showcase\\taskmaster-twisted.svg"
     },

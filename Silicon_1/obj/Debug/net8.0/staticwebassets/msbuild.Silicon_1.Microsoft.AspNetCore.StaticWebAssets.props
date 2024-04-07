@@ -1104,6 +1104,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\avatar.svg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_819c72d4-7597-498d-9e5a-57e71a72058f.svg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Silicon_1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Silicon_1</BasePath>
+      <RelativePath>images/profiles/p_51f5e641-0ea4-4fa5-9e82-441d7386216b_819c72d4-7597-498d-9e5a-57e71a72058f.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_819c72d4-7597-498d-9e5a-57e71a72058f.svg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Silicon_1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Silicon_1</BasePath>
+      <RelativePath>images/profiles/p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\showcase\taskmaster-twisted.svg))">
       <SourceType>Package</SourceType>
       <SourceId>Silicon_1</SourceId>

@@ -1,6 +1,8 @@
 ﻿@{
     var theme = Context.Request.Cookies["theme"] ?? "light";
     var isDarkmode = (theme == "dark") ? true : false;
+
+    var user = await _userManager.GetUserAsync(User);
 }
 
 <header>
@@ -27,8 +29,17 @@
             </div>
 
             <div class="account-buttons">
-            @if (_signInManager.IsSignedIn(User))
+            @if (_signInManager.IsSignedIn(User) && user != null)
             {
+                <div class="profile">
+                    <div class="image">
+                        <a asp-action="Details" asp-controller="Account">
+                            <img class="default-profile-img" src="~/images/profiles/@user.ProfileImage" />
+                        </a>
+                    </div>
+                </div>
+
+
                 <a class="btn-secondary" asp-action="SignOut" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign out</a>
             }
             else

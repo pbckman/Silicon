@@ -3,3 +3,5 @@
 @using Microsoft.AspNetCore.Identity
 @using Infrastructure.Entities
 @inject SignInManager<UserEntity> _signInManager
+@inject UserManager<UserEntity> _userManager
+@inject IConfiguration _configuration

@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var theme = Context.Request.Cookies["theme"] ?? "light";
+    var isDarkmode = (theme == "dark") ? true : false;
+}
+
+
+<!DOCTYPE html>
 <html lang="sv-se" class="">
 <head>
     <meta charset="utf-8" />
