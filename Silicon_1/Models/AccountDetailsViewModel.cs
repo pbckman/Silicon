@@ -6,5 +6,5 @@ public class AccountDetailsViewModel
 {
     public AccountBasicInfoModel AccountBasicInfo { get; set; } = null!;
 
-    public AccountAdressInfo AdressInfo { get; set; } = null!;
+    public AccountAddressInfo AddressInfo { get; set; } = null!;
 }

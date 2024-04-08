@@ -4,11 +4,9 @@ namespace Infrastructure.Entities;
 
 public class UserEntity : IdentityUser
 {
-    [ProtectedPersonalData]
-    public string FirstName { get; set; } = null!;
+    public string? FirstName { get; set; }
 
-    [ProtectedPersonalData]
-    public string LastName { get; set;} = null!;
+    public string? LastName { get; set;}
 
     public string? ProfileImage { get; set; } = "avatar.svg";
 

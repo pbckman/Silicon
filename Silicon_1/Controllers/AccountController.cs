@@ -13,28 +13,55 @@ public class AccountController(AccountService accountService) : Controller
 
     public async Task<IActionResult> Details()
     {
-        var user = await _accountService.GetuserAsync(User);
+        var user = await _accountService.GetUserAsync(User);
 
         var viewModel = new AccountDetailsViewModel
         {
             AccountBasicInfo = new AccountBasicInfoModel
             {
-                Firstname = user.FirstName!,
-                Lastname = user.LastName!,
-                Email = user.Email!,
+                FirstName = user.FirstName!,
+                LastName = user.LastName!,
+                Email = user.Email,
                 PhoneNumber = user.PhoneNumber,
                 Biography = user.Bio,
             },
-            AdressInfo = new AccountAdressInfo
+            AddressInfo = new AccountAddressInfo
             {
-                AdressLine_1 = user.AddressLine_1!,
-
+                AddressLine_1 = user.AddressLine_1!,
+                AddressLine_2 = user.AddressLine_2,
+                PostalCode = user.PostalCode!,
+                City = user.City!,
             }
-
         };
 
-
         return View(viewModel);
+    }
+
+
+    [HttpPost]
+    public async Task<IActionResult> UpdateBasicInfo(AccountDetailsViewModel model)
+    {
+        if (model.AccountBasicInfo != null)
+        {
+            if (!string.IsNullOrEmpty(model.AccountBasicInfo.FirstName) && !string.IsNullOrEmpty(model.AccountBasicInfo.LastName))
+            {
+                var result = await _accountService.UpdatebasicInfoAsync(User, model.AccountBasicInfo);
+            }
+        }
+        return RedirectToAction("Details", "Account");
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> UpdateAddressInfo(AccountDetailsViewModel model)
+    {
+        if (model.AddressInfo != null)
+        {
+            if (!string.IsNullOrEmpty(model.AddressInfo.AddressLine_1) && !string.IsNullOrEmpty(model.AddressInfo.PostalCode) && !string.IsNullOrEmpty(model.AddressInfo.City))
+            {
+                var result = await _accountService.UpdateAddressInfoAsync(User, model.AddressInfo);
+            }
+        }
+        return RedirectToAction("Details", "Account");
     }
 
     [HttpPost]

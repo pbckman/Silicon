@@ -2,14 +2,14 @@
 
 namespace Infrastructure.Models;
 
-public class AccountAdressInfo
+public class AccountAddressInfo
 {
     [Required(ErrorMessage = "You must enter a adress line")]
     [Display(Name = "Addressline 1", Prompt = "Enter your adress")]
-    public string AdressLine_1 { get; set; } = null!;
+    public string AddressLine_1 { get; set; } = null!;
 
     [Display(Name = "Addressline 2 (Optional)", Prompt = "Enter your adress")]
-    public string? AdressLine_2 { get; set;}
+    public string? AddressLine_2 { get; set;}
 
     [Required(ErrorMessage = "You must enter a postal code")]
     [Display(Name = "Postal code", Prompt = "Enter your postal code")]

@@ -4,15 +4,15 @@ namespace Infrastructure.Models;
 
 public class AccountBasicInfoModel
 {
-    [Required]
+    [Required(ErrorMessage = "You must enter a first name")]
     [Display(Name = "First name", Prompt = "Enter your first name")]
-    public string Firstname { get; set; } = null!;
+    public string FirstName { get; set; } = null!;
 
-    [Required]
+    [Required(ErrorMessage = "You must enter a last name")]
     [Display(Name = "Last name", Prompt = "Enter your last name")]
-    public string Lastname { get; set; } = null!;
+    public string LastName { get; set; } = null!;
 
-    [Required]
+    [Required(ErrorMessage = "You must enter an e-mail address")]
     [Display(Name = "Email address", Prompt = "Enter your email address")]
     [DataType(DataType.EmailAddress)]
     public string Email { get; set; } = null!;
