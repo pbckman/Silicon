@@ -9,8 +9,10 @@
 
         <div class="header">
             <h1>Courses</h1>
-            <form class="filters">
+            <form>
                 
+                <div class="filters">
+
                 <div class="select">
                     <div class="selected">All categories</div>
                     <div class="select-options">
@@ -27,7 +29,9 @@
 
                 <div class="input-search-group">
                     <input id="searchQuery" name="searchQuery" placeholder="Search courses" />
+
                     <i class="fa-regular fa-search"></i>
+                </div>
                 </div>
             </form>
         </div>
@@ -43,7 +47,7 @@
                             <div class="bestseller">Best Seller</div>
                         }
 
-                        <button class="btn btn-theme bookmark"><i class="fa-regular fa-bookmark"></i></button>
+                        <button class="btn bookmark"><i class="fa-regular fa-bookmark"></i></button>
 
                         <img src="~/images/courses/@course.ImageUrl" alt="@course.Title"/>
 

@@ -33,7 +33,7 @@
 
                     h4 {
                         font-weight: 900;
-                        color: var(--font-color-gray-900);
+                        color: var(--color-gray-900);
                         font-size: 20px;
                     }
                 }
@@ -51,7 +51,12 @@
                         align-items: center;
                         gap: 10px;
                         font-size: 14px;
-                        color: var(--font-color-gray-700);
+                        color: var(--color-gray-700);
+                    }
+
+                    input[type=checkbox] {
+                        background-color: var(--color-gray-400)!important;
+                        color: var(--color-gray-400)!important;
                     }
                 }
             }
@@ -60,25 +65,30 @@
                 position: relative;
                 display: flex;
                 gap: 20px;
-                
-                 input {
-                     padding-left: 35px;
-                 }
+
+                input {
+                    padding-left: 35px;
+                }
+
                 .input-group {
                     align-items: center;
+                    position: relative;
 
 
                     i {
                         display: flex;
                         position: absolute;
                         margin-left: 10px;
-                        
+                        top: 23px;
+                        color: var(--color-gray-500);
                     }
                 }
 
                 .subscribe-newsletter {
-                    width: 40%;
-                    height: 75%;
+                    width: 25%;
+                    height: 66%;
+                    padding: 0;
+                    margin-top: 5px;
                 }
             }
         }

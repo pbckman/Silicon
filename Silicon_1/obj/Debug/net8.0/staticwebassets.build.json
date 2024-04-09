@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yzoJpJE/6SJ6IlVbQv7NSqlg/EIJlu4cO6opMlrwN9c=",
+  "Hash": "kGeYIMSlgh6iq7U3nA68sfRbL3t+AnVMj+YgCvAiHLk=",
   "Source": "Silicon_1",
   "BasePath": "_content/Silicon_1",
   "Mode": "Default",
@@ -1366,6 +1366,25 @@
       "OriginalItemSpec": "wwwroot\\images\\profiles\\avatar.svg"
     },
     {
+      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_00d4846e-50bd-4bad-9003-8b2880a0dc73.svg",
+      "SourceId": "Silicon_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
+      "BasePath": "_content/Silicon_1",
+      "RelativePath": "images/profiles/p_51f5e641-0ea4-4fa5-9e82-441d7386216b_00d4846e-50bd-4bad-9003-8b2880a0dc73.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_00d4846e-50bd-4bad-9003-8b2880a0dc73.svg"
+    },
+    {
       "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_819c72d4-7597-498d-9e5a-57e71a72058f.svg",
       "SourceId": "Silicon_1",
       "SourceType": "Discovered",
@@ -1402,6 +1421,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png"
+    },
+    {
+      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8d45110b-6ee3-4b45-bd13-0140dba0ed31.jpg",
+      "SourceId": "Silicon_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
+      "BasePath": "_content/Silicon_1",
+      "RelativePath": "images/profiles/p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8d45110b-6ee3-4b45-bd13-0140dba0ed31.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8d45110b-6ee3-4b45-bd13-0140dba0ed31.jpg"
     },
     {
       "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_b8de311a-1678-428d-b98e-39a78da1c503_2b2a1708-bf73-4b73-b074-02c634ef528c.svg",

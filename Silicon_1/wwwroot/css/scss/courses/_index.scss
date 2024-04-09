@@ -8,23 +8,41 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1rem;
-
+            margin-bottom: 2rem;
+            margin-top: 2rem;
 
             h1 {
+                @include font-h1;
             }
+
 
             .filters {
                 display: flex;
-                justify-content: flex-end;
                 align-items: center;
+                justify-content: end;
                 gap: 1.5rem;
 
                 select {
                 }
 
-                input {
 
+
+                .input-search-group {
+                    position: relative;
+                    margin-bottom: 0;
+
+                    input {
+                        position: relative;
+                        margin-bottom: 0;
+                        padding: 8px;
+                        border: 2px solid var(--color-gray-200);
+                    }
+
+                    i {
+                        position: absolute;
+                        top: 14px;
+                        right: 1rem;
+                    }
                 }
             }
         }
@@ -33,6 +51,8 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 2rem;
+            margin-top: 3rem;
+            margin-bottom: 4rem;
 
             .course {
                 position: relative;
@@ -58,9 +78,16 @@
                 }
 
                 .bookmark {
+                    display: flex;
+                    justify-content: center;
                     position: absolute;
-                    top: 1rem;
                     right: 1rem;
+                    top: 0.5rem;
+                    background-color: white;
+                    align-items: center;
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
                 }
 
                 img {
@@ -127,6 +154,38 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .pagination {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+
+        .number {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            width: 44px;
+            height: 44px;
+            background-color: var(--color-gray-200);
+            color: var(--color-gray-800);
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+                background: var(--color-gray-700);
+                color: var(--color-gray-100);
+            }
+
+            &.active {
+                background: var(--color-gray-700);
+                color: var(--color-gray-100);
             }
         }
     }

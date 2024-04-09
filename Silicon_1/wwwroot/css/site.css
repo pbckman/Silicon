@@ -465,6 +465,9 @@ header .btn-menu {
 header a {
   text-decoration: none;
 }
+header .default-profile-img {
+  border-radius: 50%;
+}
 
 .showcase {
   padding-bottom: 100px;
@@ -907,7 +910,7 @@ header a {
 }
 .newsletters .container form .options-title .title h4 {
   font-weight: 900;
-  color: var(--font-color-gray-900);
+  color: var(--color-gray-900);
   font-size: 20px;
 }
 .newsletters .container form .options-title .options {
@@ -920,7 +923,11 @@ header a {
   align-items: center;
   gap: 10px;
   font-size: 14px;
-  color: var(--font-color-gray-700);
+  color: var(--color-gray-700);
+}
+.newsletters .container form .options-title .options input[type=checkbox] {
+  background-color: var(--color-gray-400) !important;
+  color: var(--color-gray-400) !important;
 }
 .newsletters .container form .email {
   position: relative;
@@ -932,15 +939,20 @@ header a {
 }
 .newsletters .container form .email .input-group {
   align-items: center;
+  position: relative;
 }
 .newsletters .container form .email .input-group i {
   display: flex;
   position: absolute;
   margin-left: 10px;
+  top: 23px;
+  color: var(--color-gray-500);
 }
 .newsletters .container form .email .subscribe-newsletter {
-  width: 40%;
-  height: 75%;
+  width: 25%;
+  height: 66%;
+  padding: 0;
+  margin-top: 5px;
 }
 
 footer {
@@ -1124,7 +1136,7 @@ footer .container .copyright span {
 .account .container aside {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
   border-right: 1px solid var(--color-gray-400);
   width: 90%;
 }
@@ -1134,7 +1146,7 @@ footer .container .copyright span {
 .account .container aside .account-nav a {
   font-weight: 500;
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .account .container aside .account-nav .btn-nav {
   margin-bottom: 5px;
@@ -1190,9 +1202,81 @@ section .container-account .account-info {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+section .container-account .account-info form {
+  display: grid;
+}
+section .container-account .account-info form input {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+section .container-account .account-info form .grid-account-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 0px;
+  margin-bottom: 1rem;
+}
+section .container-account .account-info form .grid-account-container .input-group {
+  padding: 0px;
+}
+section .container-account .account-info form .input-bio textarea {
+  height: 100%;
+}
+section .container-account .account-info form button {
+  font-weight: 600;
+}
+section .container-account .account-info form .btn-details {
+  display: flex;
+  gap: 10px;
+  width: 35%;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+section .container-account .account-info form .btn-details .btn-gray {
+  width: 50%;
+}
 section .container-account .address-info {
   padding-top: 2rem;
   border-top: 1px solid var(--color-gray-400);
+}
+section .container-account .address-info textarea {
+  padding: 0;
+  margin: 5px 0px 20px;
+}
+section .container-account .address-info .address-info-title h5 {
+  margin-bottom: 5px;
+}
+section .container-account .address-info form {
+  display: grid;
+  padding-top: 0px;
+}
+section .container-account .address-info form input {
+  margin-top: 3px;
+}
+section .container-account .address-info form .grid-address-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 2rem;
+}
+section .container-account .address-info form .input-group {
+  margin-top: 5px;
+}
+section .container-account .address-info form .input-group textarea {
+  height: auto;
+}
+section .container-account .address-info form .btn-details {
+  display: flex;
+  gap: 10px;
+  width: 35%;
+  margin-bottom: 70px;
+}
+section .container-account .address-info form .btn-details button {
+  font-weight: 600;
+}
+section .container-account .address-info form .btn-details .btn-gray {
+  width: 50%;
 }
 section .container-account h2 {
   font-family: var(--font-manrope);
@@ -1221,6 +1305,9 @@ section .container-account h5 {
 }
 .account-profile .profile .image {
   position: relative;
+}
+.account-profile .profile .image img {
+  border-radius: 50%;
 }
 .account-profile .profile .image form {
   position: relative;
@@ -1257,18 +1344,42 @@ section .container-account h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.courses .container .header h1 {
+  font-family: var(--font-manrope);
+  color: var(--color-gray-900);
+  font-size: 2.5em;
+  font-weight: var(--font-weight-extrabold);
 }
 .courses .container .header .filters {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: end;
   gap: 1.5rem;
+}
+.courses .container .header .filters .input-search-group {
+  position: relative;
+  margin-bottom: 0;
+}
+.courses .container .header .filters .input-search-group input {
+  position: relative;
+  margin-bottom: 0;
+  padding: 8px;
+  border: 2px solid var(--color-gray-200);
+}
+.courses .container .header .filters .input-search-group i {
+  position: absolute;
+  top: 14px;
+  right: 1rem;
 }
 .courses .container .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 .courses .container .items .course {
   position: relative;
@@ -1292,9 +1403,16 @@ section .container-account h5 {
   border-radius: 4px;
 }
 .courses .container .items .course .bookmark {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  top: 1rem;
   right: 1rem;
+  top: 0.5rem;
+  background-color: white;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
 }
 .courses .container .items .course img {
   width: 100%;
@@ -1344,4 +1462,32 @@ section .container-account h5 {
 }
 .courses .container .items .course .content .footer .likes i {
   margin-right: 5px;
+}
+.courses .pagination {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.courses .pagination .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-800);
+  text-decoration: none;
+}
+.courses .pagination .number:hover {
+  text-decoration: none;
+  background: var(--color-gray-700);
+  color: var(--color-gray-100);
+}
+.courses .pagination .number.active {
+  background: var(--color-gray-700);
+  color: var(--color-gray-100);
 }
