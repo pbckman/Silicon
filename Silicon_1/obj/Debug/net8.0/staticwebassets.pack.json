@@ -57,6 +57,14 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_account.scss"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_accountprofile.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_accountprofile.scss"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_details.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_details.scss"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_download.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_download.scss"
     },
@@ -283,6 +291,14 @@
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png",
       "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8ae6ca4a-850d-485b-89e6-1080cbcef619.png"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_b8de311a-1678-428d-b98e-39a78da1c503_2b2a1708-bf73-4b73-b074-02c634ef528c.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\p_b8de311a-1678-428d-b98e-39a78da1c503_2b2a1708-bf73-4b73-b074-02c634ef528c.svg"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_b8de311a-1678-428d-b98e-39a78da1c503_ac19268d-3df0-4177-bdca-7220a32fa8a5.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\p_b8de311a-1678-428d-b98e-39a78da1c503_ac19268d-3df0-4177-bdca-7220a32fa8a5.png"
     },
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\showcase\\taskmaster-twisted.svg",

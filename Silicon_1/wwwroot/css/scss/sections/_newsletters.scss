@@ -60,15 +60,20 @@
                 position: relative;
                 display: flex;
                 gap: 20px;
-
-                i {
-                    display: flex;
-                    position: absolute;
-                    margin-left: 10px;
-                }
-
+                
+                 input {
+                     padding-left: 35px;
+                 }
                 .input-group {
                     align-items: center;
+
+
+                    i {
+                        display: flex;
+                        position: absolute;
+                        margin-left: 10px;
+                        
+                    }
                 }
 
                 .subscribe-newsletter {

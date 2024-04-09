@@ -12,7 +12,7 @@
     }
 
     .container {
-        width: 30%;
+        width: 27%;
         align-items: center;
 
 
@@ -35,19 +35,29 @@
 
             .alert {
                 margin: 0;
-                padding: 10px;
+                padding: 0px;
             }
 
             .input-group {
                 color: var(--color-gray-900);
                 font-weight: var(--font-weight-bold);
                 font-size: 16px;
+
+                label {
+                    margin-bottom: 5px;
+                }
             }
 
             .checkbox-group {
+                margin-bottom: 25px;
+
+                label {
+                    margin-bottom: 0px;
+                }
 
                 input[type = checkbox] {
                     margin-right: 10px;
+                    border: 2px solid var(--color-gray-500);
                 }
 
                 .input-group {

@@ -5,29 +5,34 @@ form {
 
     .input-group {
         display: grid;
-        margin-bottom: 20px;
+        padding-top: 5px;
     }
+}
 
-    input[type=checkbox] {
-        height: 18px;
-        width: 18px;
-        margin: 0;
+textarea,
+select,
+input:not([type="checkbox"]) {
+    font-size: 1em;
+    font-family: "manrope";
+    border-radius: 8px !important;
+    border: 2px solid var(--color-gray-400);
+    padding: 12px 16px;
+    font-weight: 400 !important;
+    min-width: 300px;
+    margin-bottom: 20px;
+
+    &::placeholder {
+        opacity: 0.5;
     }
+}
 
-    button {
-        width: 100%;
-    }
+input[type=checkbox] {
+    height: 18px;
+    width: 18px;
+    margin: 0;
+}
 
-
-    input {
-        font-size: 1em;
-        font-family: "manrope";
-        padding: 1rem;
-        border-radius: 8px;
-        border: 1px solid var(--color-gray-400);
-
-        &::placeholder {
-            opacity: 0.5;
-        }
-    }
+button {
+    font-size: 16px;
+    width: 100%;
 }

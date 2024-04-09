@@ -1,5 +1,6 @@
 .account {
     height: 100%;
+    padding: 2rem 0;
 
     .container {
         height: 100%;
@@ -8,12 +9,24 @@
 
 
         aside {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-right: 2rem;
             border-right: 1px solid var(--color-gray-400);
 
 
             .account-nav {
+                margin-top: 2rem;
 
-                .btn {
+
+                .btn-nav {
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    
+                }
+
+                .btn-nav.active{
+
                 }
             }
         }

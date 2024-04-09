@@ -160,7 +160,7 @@ body {
   border-radius: 50%;
 }
 
-.btn-theme {
+.btn-nav {
   font-family: var(--font-manrope);
   font-size: 14px;
   border-radius: 4px;
@@ -173,11 +173,14 @@ body {
   background-color: var(--color-theme);
   border: 1px solid var(--color-theme);
   color: var(--color-white) !important;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
 }
-.btn-theme i {
+.btn-nav i {
   margin-right: 10px;
 }
-.btn-theme:hover {
+.btn-nav:hover {
   background-color: var(--color-white);
   border: 1px solid var(--color-theme);
   color: var(--color-theme) !important;
@@ -289,25 +292,36 @@ form {
 }
 form .input-group {
   display: grid;
+  padding-top: 5px;
+}
+
+textarea,
+select,
+input:not([type=checkbox]) {
+  font-size: 1em;
+  font-family: "manrope";
+  border-radius: 8px !important;
+  border: 2px solid var(--color-gray-400);
+  padding: 12px 16px;
+  font-weight: 400 !important;
+  min-width: 300px;
   margin-bottom: 20px;
 }
-form input[type=checkbox] {
+textarea::placeholder,
+select::placeholder,
+input:not([type=checkbox])::placeholder {
+  opacity: 0.5;
+}
+
+input[type=checkbox] {
   height: 18px;
   width: 18px;
   margin: 0;
 }
-form button {
+
+button {
+  font-size: 16px;
   width: 100%;
-}
-form input {
-  font-size: 1em;
-  font-family: "manrope";
-  padding: 1rem;
-  border-radius: 8px;
-  border: 1px solid var(--color-gray-400);
-}
-form input::placeholder {
-  opacity: 0.5;
 }
 
 header .container {
@@ -871,13 +885,16 @@ header a {
   display: flex;
   gap: 20px;
 }
-.newsletters .container form .email i {
-  display: flex;
-  position: absolute;
-  margin-left: 10px;
+.newsletters .container form .email input {
+  padding-left: 35px;
 }
 .newsletters .container form .email .input-group {
   align-items: center;
+}
+.newsletters .container form .email .input-group i {
+  display: flex;
+  position: absolute;
+  margin-left: 10px;
 }
 .newsletters .container form .email .subscribe-newsletter {
   width: 40%;
@@ -936,7 +953,7 @@ footer .container .copyright span {
   color: var(--color-theme);
 }
 .sign-in .container {
-  width: 30%;
+  width: 27%;
   align-items: center;
 }
 .sign-in .container .sign-title h1 {
@@ -953,15 +970,25 @@ footer .container .copyright span {
 }
 .sign-in .container form .alert {
   margin: 0;
-  padding: 10px;
+  padding: 0px;
 }
 .sign-in .container form .input-group {
   color: var(--color-gray-900);
   font-weight: var(--font-weight-bold);
   font-size: 16px;
 }
+.sign-in .container form .input-group label {
+  margin-bottom: 5px;
+}
+.sign-in .container form .checkbox-group {
+  margin-bottom: 25px;
+}
+.sign-in .container form .checkbox-group label {
+  margin-bottom: 0px;
+}
 .sign-in .container form .checkbox-group input[type=checkbox] {
   margin-right: 10px;
+  border: 2px solid var(--color-gray-500);
 }
 .sign-in .container form .checkbox-group .input-group {
   display: flex;
@@ -983,7 +1010,7 @@ footer .container .copyright span {
 .sign-up {
   display: flex;
   padding-top: 150px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   align-items: center;
   font-family: var(--font-manrope);
 }
@@ -1005,6 +1032,7 @@ footer .container .copyright span {
   display: flex;
   gap: 5px;
   margin-top: 20px;
+  margin-bottom: 10px;
   color: var(--color-gray-700);
 }
 .sign-up .container form .signup-name {
@@ -1016,6 +1044,12 @@ footer .container .copyright span {
   font-weight: var(--font-weight-bold);
   font-size: 16px;
 }
+.sign-up .container form .input-group label {
+  margin-bottom: 4px;
+}
+.sign-up .container form .checkbox-group {
+  margin-bottom: 25px;
+}
 .sign-up .container form .checkbox-group input[type=checkbox] {
   margin-right: 10px;
 }
@@ -1024,6 +1058,9 @@ footer .container .copyright span {
   align-items: center;
   font-weight: var(--font-weight-regular);
   color: var(--color-gray-700);
+}
+.sign-up .container form .checkbox-group label {
+  margin: 0;
 }
 .sign-up .container form .alert {
   margin: 0;
@@ -1035,6 +1072,7 @@ footer .container .copyright span {
 
 .account {
   height: 100%;
+  padding: 2rem 0;
 }
 .account .container {
   height: 100%;
@@ -1042,7 +1080,34 @@ footer .container .copyright span {
   grid-template-columns: 350px 1fr;
 }
 .account .container aside {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
   border-right: 1px solid var(--color-gray-400);
+}
+.account .container aside .account-nav {
+  margin-top: 2rem;
+}
+.account .container aside .account-nav .btn-nav {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+section .container {
+  display: grid;
+}
+section .container .account-info {
+  border-bottom: 1px solid var(--color-gray-400);
+}
+.account-profile {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.account-profile button {
+  width: 100%;
+}
+.account-profile .profile {
+  align-items: center;
 }
 .courses {
   padding-top: 3rem;

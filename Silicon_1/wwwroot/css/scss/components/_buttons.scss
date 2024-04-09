@@ -15,7 +15,7 @@
     }
 }
 
-.btn-theme {
+@mixin btn-theme {
     @include button-standard;
     background-color: var(--color-theme);
     border: 1px solid var(--color-theme);
@@ -27,6 +27,13 @@
         border: 1px solid var(--color-theme);
         color: var(--color-theme) !important;
     }
+}
+
+.btn-nav {
+    @include btn-theme;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .btn-secondary {
