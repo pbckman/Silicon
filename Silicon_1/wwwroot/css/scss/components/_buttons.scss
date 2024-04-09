@@ -29,12 +29,26 @@
     }
 }
 
-.btn-nav {
+.btn-gray {
+    @include button-standard;
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--color-gray-900);
+    background: var(--color-gray-200);
+}
+
+.btn-standard {
+    @include btn-theme;
+    
+}
+
+.btn-account {
     @include btn-theme;
     width: 100%;
     border-radius: 10px;
     padding: 10px;
 }
+
 
 .btn-secondary {
     @include button-standard;

@@ -1,21 +1,49 @@
 section {
 
 
-    .container {
+    .container-account {
         display: grid;
+        margin-left: 100px;
 
+        .btn-account {
+            @include btn-theme;
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        label {
+            font-weight: 700;
+            color: var(--color-gray-900);
+        }
 
         .account-info {
-            border-bottom: 1px solid var(--color-gray-400);
-
+            padding-top: 2rem;
+            padding-bottom: 2rem;
 
             .input-group {
             }
         }
 
         .address-info {
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-gray-400);
+
             .input-group {
             }
+        }
+
+        h2 {
+            @include font-h2;
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+
+        h5 {
+            color: var(--color-theme);
+            font-weight: 800;
+            font-size: 20px;
+            margin-bottom: 1rem;
         }
     }
 }

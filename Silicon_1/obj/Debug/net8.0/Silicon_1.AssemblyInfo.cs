@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Silicon_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8063ca92d53c7e3b99da861fe269c1399631f623")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be1588980104aae7cade14048fe0e0cc6d9aab63")]
 [assembly: System.Reflection.AssemblyProductAttribute("Silicon_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Silicon_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
