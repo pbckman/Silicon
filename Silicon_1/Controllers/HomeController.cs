@@ -2,12 +2,22 @@
 using Infrastructure.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Silicon_1.Models;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text.Json;
 
 namespace Silicon_1.Controllers;
 
-public class HomeController(DataContext dataContext) : Controller
+public class HomeController : Controller
 {
-    private readonly DataContext _dataContext = dataContext;
+    private readonly DataContext _dataContext;
+    private readonly HttpClient _httpClient;
+
+    public HomeController(DataContext dataContext, IHttpClientFactory httpClientFactory)
+    {
+        _dataContext = dataContext;
+        _httpClient = httpClientFactory.CreateClient();
+    }
 
     public IActionResult Index()
     {
@@ -30,9 +40,15 @@ public class HomeController(DataContext dataContext) : Controller
                 Podcasts = model.Podcasts,
             };
 
-            _dataContext.Subscribers.Add(subscriberEntity);
-            await _dataContext.SaveChangesAsync();
+            var json = JsonSerializer.Serialize(subscriberEntity);
+            var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
+            var response = await _httpClient.PostAsync("https://localhost:7155/api/Subscriber", content);
+            
+            if(!response.IsSuccessStatusCode)
+            {
+                return View(model);
+            }
         }
 
         return RedirectToAction("Index", "Home");
