@@ -14,7 +14,7 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-gray: #EFF2FC;
-  --color-danger: #F5D7DA;
+  --color-danger: #EF4444;
   --color-danger-dark: #e57e88;
   --color-success: #bcf7d2;
   --color-success-dark: #22C55E;
@@ -36,7 +36,7 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-theme: #6366F1;
-  --color-danger: #F5D7DA;
+  --color-danger: #EF4444;
   --color-danger-dark: #e57e88;
   --color-success: #bcf7d2;
   --color-success-dark: #22C55E;
@@ -336,10 +336,18 @@ form .input-group {
   display: grid;
   padding-top: 5px;
 }
-
-textarea,
-select,
-input:not([type=checkbox]) {
+form input[type=checkbox] {
+  height: 18px;
+  width: 18px;
+  margin: 0;
+}
+form button {
+  font-size: 16px;
+  width: 100%;
+}
+form textarea,
+form select,
+form input:not([type=checkbox]) {
   font-size: 1em;
   font-family: "manrope";
   border-radius: 8px !important;
@@ -349,21 +357,18 @@ input:not([type=checkbox]) {
   min-width: 300px;
   margin-bottom: 20px;
 }
-textarea::placeholder,
-select::placeholder,
-input:not([type=checkbox])::placeholder {
+form textarea::placeholder,
+form select::placeholder,
+form input:not([type=checkbox])::placeholder {
   opacity: 0.5;
 }
-
-input[type=checkbox] {
-  height: 18px;
-  width: 18px;
-  margin: 0;
+form .field-validation-error {
+  font-size: 14px;
+  font-weight: 400 !important;
+  color: var(--color-danger);
 }
-
-button {
-  font-size: 16px;
-  width: 100%;
+form .input-validation-error {
+  border-color: var(--color-danger) !important;
 }
 
 header .container {
@@ -925,7 +930,7 @@ header .default-profile-img {
   font-size: 14px;
   color: var(--color-gray-700);
 }
-.newsletters .container form .options-title .options input[type=checkbox] {
+.newsletters .container form .options-title .options .input-group input[type=checkbox] {
   background-color: var(--color-gray-400) !important;
   color: var(--color-gray-400) !important;
 }
@@ -1025,6 +1030,7 @@ footer .container .copyright span {
 .sign-in .container form .alert {
   margin: 0;
   padding: 0px;
+  color: var(--color-danger);
 }
 .sign-in .container form .input-group {
   color: var(--color-gray-900);
@@ -1089,6 +1095,10 @@ footer .container .copyright span {
   margin-bottom: 10px;
   color: var(--color-gray-700);
 }
+.sign-up .container form input {
+  margin-bottom: 15px !important;
+  margin-top: 5px;
+}
 .sign-up .container form .signup-name {
   display: flex;
   gap: 20px;
@@ -1097,9 +1107,14 @@ footer .container .copyright span {
   color: var(--color-gray-900);
   font-weight: var(--font-weight-bold);
   font-size: 16px;
+  position: relative;
 }
 .sign-up .container form .input-group label {
   margin-bottom: 4px;
+}
+.sign-up .container form .input-group span {
+  position: absolute;
+  top: 85%;
 }
 .sign-up .container form .checkbox-group {
   margin-bottom: 25px;

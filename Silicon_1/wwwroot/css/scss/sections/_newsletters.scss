@@ -52,11 +52,11 @@
                         gap: 10px;
                         font-size: 14px;
                         color: var(--color-gray-700);
-                    }
 
-                    input[type=checkbox] {
-                        background-color: var(--color-gray-400)!important;
-                        color: var(--color-gray-400)!important;
+                        input[type=checkbox] {
+                            background-color: var(--color-gray-400) !important;
+                            color: var(--color-gray-400) !important;
+                        }
                     }
                 }
             }
@@ -94,3 +94,4 @@
         }
     }
 }
+
