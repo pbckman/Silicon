@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\models\\contactrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\models\\contactrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\models\\contactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\models\\contactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\partials\\sections\\_newsletters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\partials\\sections\\_newsletters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +42,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 189,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 4,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Silicon_1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Silicon_1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T14:49:32.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Silicon_1\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Silicon_1\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T14:38:10.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Silicon_1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Silicon_1\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA1wDQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:18:11.507Z",
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Silicon_1\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-11T12:10:14.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Silicon_1\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Silicon_1\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAmwEUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T22:08:49.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Silicon_1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Silicon_1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T21:49:17.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactRequest.cs",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Models\\ContactRequest.cs",
+              "RelativeDocumentMoniker": "Silicon_1\\Models\\ContactRequest.cs",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Models\\ContactRequest.cs",
+              "RelativeToolTip": "Silicon_1\\Models\\ContactRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T21:38:47.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Silicon_1\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Silicon_1\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T22:00:18.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Models\\ContactRequestViewModel.cs",
+              "RelativeDocumentMoniker": "Silicon_1\\Models\\ContactRequestViewModel.cs",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Models\\ContactRequestViewModel.cs",
+              "RelativeToolTip": "Silicon_1\\Models\\ContactRequestViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T20:21:10.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Silicon_1\\Controllers\\CoursesController.cs",
               "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "Silicon_1\\Controllers\\CoursesController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:26:16.22Z",
+              "WhenOpened": "2024-04-10T21:31:14.861Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Newsletters.cshtml",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "RelativeDocumentMoniker": "Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "RelativeToolTip": "Silicon_1\\Views\\Partials\\Sections\\_Newsletters.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T19:44:01.926Z"
             }
           ]
         }

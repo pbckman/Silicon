@@ -5,7 +5,26 @@ document.addEventListener('DOMContentLoaded', function () {
     select()
     search()
     handleProfileImageUpload()
+    serviceId()
 })
+
+
+function serviceId() {
+
+    try {
+
+        document.querySelectorAll('.select-options .option').forEach(option => {
+            option.addEventListener('click', function () {
+                const serviceId = this.getAttribute('data-value');
+                if (serviceId && serviceId !== 'all') {                
+                    document.getElementById('serviceIdInput').value = serviceId;
+                }
+            });
+        });
+    }
+    catch { }
+}
+
 
 function darkModeSwitch() {
 
