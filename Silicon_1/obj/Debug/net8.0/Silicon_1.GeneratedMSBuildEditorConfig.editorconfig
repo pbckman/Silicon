@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Skoluppgifter\ASPNET_1\Silicon_1\Silicon_1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Skoluppgifter/ASPNET_1/Silicon_1/Silicon_1/Views/Account/AccountSecurity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50U2VjdXJpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Skoluppgifter/ASPNET_1/Silicon_1/Silicon_1/Views/Account/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

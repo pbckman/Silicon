@@ -1,15 +1,21 @@
-﻿using Infrastructure.Models;
+﻿using Infrastructure.Entities;
+using Infrastructure.Models;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 using Silicon_1.Models;
 
 namespace Silicon_1.Controllers;
 
 [Authorize]
-public class AccountController(AccountService accountService) : Controller
+public class AccountController(AccountService accountService, UserManager<UserEntity> userManager, SignInManager<UserEntity> signInManager) : Controller
 {
     private readonly AccountService _accountService = accountService;
+    private readonly UserManager<UserEntity> _userManager = userManager;
+    private readonly SignInManager<UserEntity> _signInManager = signInManager;
+
 
     public async Task<IActionResult> Details()
     {
@@ -52,6 +58,14 @@ public class AccountController(AccountService accountService) : Controller
     }
 
     [HttpPost]
+    public async Task<IActionResult> ProfileImageUpload(IFormFile file)
+    {
+        var result = await _accountService.UploadUserProfileImageAsync(User, file);
+        return RedirectToAction("Details", "Account");
+    }
+
+
+    [HttpPost]
     public async Task<IActionResult> UpdateAddressInfo(AccountDetailsViewModel model)
     {
         if (model.AddressInfo != null)
@@ -64,10 +78,37 @@ public class AccountController(AccountService accountService) : Controller
         return RedirectToAction("Details", "Account");
     }
 
-    [HttpPost]
-    public async Task<IActionResult> ProfileImageUpload(IFormFile file)
+    [HttpGet]
+    public IActionResult AccountSecurity()
     {
-        var result = await _accountService.UploadUserProfileImageAsync(User, file);
-        return RedirectToAction("Details", "Account");
+        return View("AccountSecurity");
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> AccountSecurity(AccountSecurityInfo model)
+    {
+        if(!ModelState.IsValid)
+        {
+            return View(model);
+        }
+
+        var user = await _userManager.GetUserAsync(User);
+
+        var result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+
+        if (result.Succeeded)
+        {
+            await _signInManager.RefreshSignInAsync(user);
+
+            return RedirectToAction("AccountSecurity", "Account");
+        }
+
+        foreach (var error in result.Errors)
+        {
+            ModelState.AddModelError(string.Empty, error.Description);
+        }
+
+        return View("AccountSecurity");
     }
 }

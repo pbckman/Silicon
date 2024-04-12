@@ -1,0 +1,43 @@
+﻿@using Infrastructure.Models
+@model AccountSecurityInfo
+@{
+    Layout = "_AccountLayout";
+    ViewData["Title"] = "Account Security";
+}
+
+<section>
+    <div class="container-account">
+        <div class="account-info">
+            <div class="account-info-title">
+                <h2>Security</h2>
+                <h5>Password</h5>
+            </div>
+
+            <form method="post" asp-controller="Account" asp-action="AccountSecurity">
+                <div class="grid-account-container">
+                    <div class="input-group">
+                        <label asp-for="CurrentPassword"></label>
+                        <input asp-for="CurrentPassword" />
+                        <span asp-validation-for="CurrentPassword"></span>
+                    </div>
+                    <div class="input-group">
+                        <label asp-for="NewPassword"></label>
+                        <input asp-for="NewPassword" />
+                        <span asp-validation-for="NewPassword"></span>
+                    </div>
+                    <div class="input-group">
+                        <label asp-for="ConfirmNewPassword"></label>
+                        <input asp-for="ConfirmNewPassword" />
+                        <span asp-validation-for="ConfirmNewPassword"></span>
+                    </div>
+                </div>
+                <div class="btn-details">
+                    <button type="reset" class="btn-gray">Cancel</button>
+                    <button type="submit" class="btn-account">Save Changes</button>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</section>

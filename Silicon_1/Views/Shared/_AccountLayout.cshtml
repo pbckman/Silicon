@@ -27,6 +27,7 @@
 
                     <nav class="account-nav">
                         <a class="btn-account btn-nav @Html.IsActive("Account", "Details")" asp-action="Details" asp-controller="Account"><i class="fa-regular fa-cog"></i>Account Details</a>
+                        <a class="btn-account btn-nav @Html.IsActive("Account", "AccountSecurity")" asp-action="AccountSecurity" asp-controller="Account"><i class="fa-regular fa-arrow-right-from-bracket"></i>Security</a>
                         <a class="btn-account btn-nav @Html.IsActive("Auth", "SignOut")" asp-action="SignOut" asp-controller="Auth"><i class="fa-regular fa-arrow-right-from-bracket"></i>Sign Out</a>
                     </nav>
                 </aside>

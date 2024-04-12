@@ -9,23 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 
-function serviceId() {
-
-    try {
-
-        document.querySelectorAll('.select-options .option').forEach(option => {
-            option.addEventListener('click', function () {
-                const serviceId = this.getAttribute('data-value');
-                if (serviceId && serviceId !== 'all') {                
-                    document.getElementById('serviceIdInput').value = serviceId;
-                }
-            });
-        });
-    }
-    catch { }
-}
-
-
 function darkModeSwitch() {
 
     try {
@@ -206,4 +189,21 @@ const passwordValidation = (e) => {
         handleValidationOutput(regEx.test(e.target.value), e, e.target.dataset.valRegex)
     else
         handleValidationOutput(false, e, e.target.dataset.valRequired)
+}
+
+
+function serviceId() {
+
+    try {
+
+        document.querySelectorAll('.select-options .option').forEach(option => {
+            option.addEventListener('click', function () {
+                const serviceId = this.getAttribute('data-value');
+                if (serviceId && serviceId !== 'all') {
+                    document.getElementById('serviceIdInput').value = serviceId;
+                }
+            });
+        });
+    }
+    catch { }
 }
