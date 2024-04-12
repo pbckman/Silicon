@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     search()
     handleProfileImageUpload()
     serviceId()
+    deleteButton()
 })
 
 
@@ -203,6 +204,17 @@ function serviceId() {
                     document.getElementById('serviceIdInput').value = serviceId;
                 }
             });
+        });
+    }
+    catch { }
+}
+
+
+function deleteButton() {
+    try {
+
+        document.getElementById('confirmDeleteCheckbox').addEventListener('change', function () {
+            document.getElementById('deleteButton').disabled = !this.checked;
         });
     }
     catch { }

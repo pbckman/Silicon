@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_accountprofile.scss"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_accountsecurity.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_accountsecurity.scss"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_details.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_details.scss"
     },
@@ -289,6 +293,14 @@
       "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_00d4846e-50bd-4bad-9003-8b2880a0dc73.svg"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_49d48ded-a697-4813-933a-0134acbbdde1.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_49d48ded-a697-4813-933a-0134acbbdde1.jpg"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_51eca4f3-00b5-4ad1-874c-8b9afee634a8.jpeg",
+      "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_51eca4f3-00b5-4ad1-874c-8b9afee634a8.jpeg"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_746c0a5e-269b-4461-ace5-ea0571ef2425.jpg",
       "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_746c0a5e-269b-4461-ace5-ea0571ef2425.jpg"
     },
@@ -303,6 +315,10 @@
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8d45110b-6ee3-4b45-bd13-0140dba0ed31.jpg",
       "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_8d45110b-6ee3-4b45-bd13-0140dba0ed31.jpg"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_d3e6b3de-5c76-4959-858f-8a1104c670c2.jpeg",
+      "PackagePath": "staticwebassets\\images\\profiles\\p_51f5e641-0ea4-4fa5-9e82-441d7386216b_d3e6b3de-5c76-4959-858f-8a1104c670c2.jpeg"
     },
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\profiles\\p_b8de311a-1678-428d-b98e-39a78da1c503_2b2a1708-bf73-4b73-b074-02c634ef528c.svg",

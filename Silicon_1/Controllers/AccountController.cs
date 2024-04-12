@@ -6,16 +6,19 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Silicon_1.Models;
+using System.Security.Claims;
 
 namespace Silicon_1.Controllers;
 
 [Authorize]
-public class AccountController(AccountService accountService, UserManager<UserEntity> userManager, SignInManager<UserEntity> signInManager) : Controller
+public class AccountController(AccountService accountService, UserManager<UserEntity> userManager, SignInManager<UserEntity> signInManager, IPasswordHasher<UserEntity> passwordHash) : Controller
 {
     private readonly AccountService _accountService = accountService;
     private readonly UserManager<UserEntity> _userManager = userManager;
     private readonly SignInManager<UserEntity> _signInManager = signInManager;
+    private readonly IPasswordHasher<UserEntity> _passwordHash = passwordHash;
 
+ 
 
     public async Task<IActionResult> Details()
     {
@@ -110,5 +113,39 @@ public class AccountController(AccountService accountService, UserManager<UserEn
         }
 
         return View("AccountSecurity");
+    }
+
+    [HttpGet]
+    public IActionResult ConfirmDelete()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteUser()
+    {
+        var userId = _userManager.GetUserId(User);
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user != null)
+        {
+            IdentityResult result = await _userManager.DeleteAsync(user);
+            if (result.Succeeded)
+            {
+                await _signInManager.SignOutAsync();
+                TempData["AccountDeleted"] = "Your account has benn successfully deleted.";
+                return RedirectToAction("SignIn", "Auth");
+            }
+            else
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View("Error");
+            }
+        }
+        else
+            return RedirectToAction("LogIn", "Auth");
     }
 }

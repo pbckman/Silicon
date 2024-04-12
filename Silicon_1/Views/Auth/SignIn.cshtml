@@ -4,6 +4,15 @@
     ViewData["Title"] = "Sign in";
 }
 
+@if (TempData["AccountDeleted"] != null)
+{
+    <script>
+        window.onload = function () {
+            alert("@TempData["AccountDeleted"]");
+        };
+    </script>
+}
+
 <section class="sign-in">
     <div class="container">
 

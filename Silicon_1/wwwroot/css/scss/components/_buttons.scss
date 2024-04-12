@@ -37,6 +37,14 @@
     background: var(--color-gray-200);
 }
 
+.btn-danger {
+    @include button-standard;
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--color-white);
+    background: var(--color-danger);
+}
+
 .btn-standard {
     @include btn-theme;
     

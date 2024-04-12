@@ -179,6 +179,25 @@ body {
   margin-right: 10px;
 }
 
+.btn-danger {
+  font-family: var(--font-manrope);
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+  gap: 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.12s ease-in-out;
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--color-white);
+  background: var(--color-danger);
+}
+.btn-danger i {
+  margin-right: 10px;
+}
+
 .btn-standard {
   font-family: var(--font-manrope);
   font-size: 14px;
@@ -1349,6 +1368,33 @@ section .container-account h5 {
   font-size: 1.25em;
   font-weight: var(--font-weight-bold);
   font-weight: 900;
+}
+
+.change-password {
+  display: grid;
+}
+
+.delete-user {
+  border-top: 1px solid var(--color-gray-400);
+  margin-top: 30px;
+}
+.delete-user h5 {
+  margin-top: 30px;
+}
+.delete-user p {
+  margin-bottom: 20px;
+}
+.delete-user label {
+  font-weight: 300 !important;
+}
+.delete-user input {
+  border: 2px solid var(--color-gray-500);
+}
+.delete-user .account-buttons button {
+  margin-top: 20px;
+  background-color: var(--color-danger);
+  width: 12%;
+  border: none;
 }
 
 .courses {
