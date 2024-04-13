@@ -5,21 +5,81 @@
 }
 
 <section class="course-details-container">
+    <img src="~/images/courses/course-description.svg" />
     <div class="course-detail-top">
         <div class="nav-route">
 
         </div>
-        
+        @if (Model.IsBestseller)
+        {
+            <div class="bestseller">Best Seller</div>
+        } 
+        @if (Model.IsDigital)
+        {
+            <div class="bestseller">Digital</div>
+        }
+        <h2>@Model.Title</h2>
+        <p>@Model.CourseDetails.TitleDescription</p>
 
+        <div class="course-rating">
+            <p><i></i>(@Model.NumberOfLikes reviews)</p>
+            <p><i></i>(@Model.NumberOfLikes likes)</p>
+            <p><i></i>(@Model.Hours hours)</p>
+        </div>
+
+        <div class="author-details">
+            <img src="~/images/authors/@Model.CourseDetails.AuthorImgUrl"/>
+
+            <div class="author-name">
+                <p>Created by</p>
+                <p>@Model.Author</p>
+            </div>
+        </div>
     </div>
     <div class="course-detail-middle">
-        <h3>What You Will Learn</h3>
-        <ul>
-            @foreach (var item in Model.CourseDetails.WhatYouWillLearn)
-            {
-                <li>@item</li>
-            }
-        </ul>
+        <div class="course-detail-description">
+            <h2>Course Description</h2>
+            <p>@Model.CourseDetails.CourseDescription</p>
+        </div>
+        <div class="will-learn">
+            <h3>What You Will Learn</h3>
+            <ul>
+                @foreach (var item in Model.CourseDetails.WhatYouWillLearn)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        </div>
+
+        <div class="course-includes">
+            <h4>This course includes:</h4>
+            
+            <div class="include-list">
+                <p><i></i>(@Model.Hours hours)</p>
+                <p><i></i>18 articles</p>
+                <p><i></i>25 downloadable resources</p>
+                <p><i></i>Full time access</p>
+                <p><i></i>Certificate completion</p>
+            </div>
+
+            <div class="pricing">
+                @if (!string.IsNullOrEmpty(@Model.DiscountPrice))
+                {
+                    <div class="discount">@Model.DiscountPrice</div>
+                }
+
+                <div class="original @(!string.IsNullOrEmpty(@Model.DiscountPrice) ? "discount-enabled" : "")">@Model.OriginalPrice</div>
+            </div>
+            <button></button>
+    </div>
+
+    <div class="program-details">
+            <h2>Program Details</h2>
+                @foreach (var detail in Model.CourseDetails.ProgramDetails)
+                {
+                <div class="prog-number">@detail.Title - @detail.Text </div>
+                }
+        </div>
     </div>
 
     <div class="course-detail-bottom">

@@ -1557,3 +1557,17 @@ section .container-account h5 {
   background: var(--color-gray-700);
   color: var(--color-gray-100);
 }
+
+.course-details-container {
+  position: relative;
+}
+.course-details-container .course-details-container img {
+  width: 100%;
+  display: block;
+}
+.course-details-container .course-detail-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

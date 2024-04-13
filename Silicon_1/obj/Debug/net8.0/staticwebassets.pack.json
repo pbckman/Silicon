@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\core\\_media.scss"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\CourseDetails.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\courses\\CourseDetails.scss"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
       "PackagePath": "staticwebassets\\css\\scss\\courses\\_index.scss"
     },
@@ -129,6 +133,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\authors\\author_1.svg",
+      "PackagePath": "staticwebassets\\images\\authors\\author_1.svg"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\brands\\brand-logo-1.svg",
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo-1.svg"
     },
@@ -143,6 +151,10 @@
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\brands\\brand-logo-4.svg",
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo-4.svg"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\courses\\course-description.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course-description.svg"
     },
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\courses\\course_1.svg",

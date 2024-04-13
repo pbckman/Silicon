@@ -1,0 +1,73 @@
+﻿.course-details-container {
+    .course-details-container img {
+        width: 100%;
+        display: block;
+    }
+
+    position: relative;
+
+    .course-detail-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        .nav-route {
+        }
+
+        .bestseller {
+        }
+
+        h2 {
+        }
+
+        p {
+        }
+
+        .course-rating {
+        }
+
+        .author-details {
+
+            img {
+            }
+
+            .author-name {
+            }
+        }
+    }
+
+    .course-detail-middle {
+        .course-detail-description {
+        }
+
+        .will-learn {
+        }
+
+        .course-includes {
+            .include-list {
+            }
+
+            .pricing {
+            }
+
+            button {
+            }
+        }
+
+        .program-details {
+            .prog-number {
+            }
+        }
+    }
+
+    .course-detail-bottom {
+        .author-pic-lg {
+        }
+
+        .author-info {
+            .subscribe-buttons {
+            }
+        }
+    }
+}
