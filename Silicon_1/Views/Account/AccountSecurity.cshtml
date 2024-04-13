@@ -15,12 +15,15 @@
 
             <div class="change-password">
                 <form method="post" asp-controller="Account" asp-action="AccountSecurity">
-                    <div class="grid-account-container">
+                    <div class="grid-account-container-1">
                         <div class="input-group">
                             <label asp-for="CurrentPassword"></label>
                             <input asp-for="CurrentPassword" />
                             <span asp-validation-for="CurrentPassword"></span>
                         </div>
+                    </div>
+
+                    <div class="grid-account-container-2">
                         <div class="input-group">
                             <label asp-for="NewPassword"></label>
                             <input asp-for="NewPassword" />

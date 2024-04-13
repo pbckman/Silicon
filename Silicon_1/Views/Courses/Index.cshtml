@@ -41,7 +41,7 @@
             {
                 @foreach (var course in Model.Courses)
                 {
-                    <a class="course" asp-action="Details" asp-controller="Courses" asp-route-id="@course.Id">
+                    <a class="course" asp-action="CourseDetails" asp-controller="Courses" asp-route-id="@course.Id">
                         @if (course.IsBestseller)
                         {
                             <div class="bestseller">Best Seller</div>

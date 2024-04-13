@@ -42,4 +42,17 @@ public class CoursesController(HttpClient http) : Controller
 
         return View(viewModel);
     }
+
+
+    public async Task<IActionResult> CourseDetails(string id)
+    {
+        var response = await _http.GetAsync($"https://localhost:7155/api/Course/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            var jsonString = await response.Content.ReadAsStringAsync();
+            var course = JsonConvert.DeserializeObject<CourseDetailViewModel>(await response.Content.ReadAsStringAsync());
+            return View(course);
+        }
+        return NotFound();
+    }
 }

@@ -1,6 +1,20 @@
 ﻿.change-password {
-    display: grid;
+    .grid-account-container-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 50%;
+    }
 
+    .grid-account-container-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        
+
+        input,label, span {
+          
+        }
+    }
 }
 
 

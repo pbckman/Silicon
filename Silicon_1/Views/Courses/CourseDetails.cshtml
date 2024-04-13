@@ -1,0 +1,39 @@
+﻿@model CourseDetailViewModel
+
+@{
+    ViewData["Title"] = "Course Details";
+}
+
+<section class="course-details-container">
+    <div class="course-detail-top">
+        <div class="nav-route">
+
+        </div>
+        
+
+    </div>
+    <div class="course-detail-middle">
+        <h3>What You Will Learn</h3>
+        <ul>
+            @foreach (var item in Model.CourseDetails.WhatYouWillLearn)
+            {
+                <li>@item</li>
+            }
+        </ul>
+    </div>
+
+    <div class="course-detail-bottom">
+        <div class="author-pic-lg">
+
+        </div>
+        <div class="author-info">
+            <h5>Learn from the best</h5>
+            <h2></h2>
+            <p>Dolor ipsum amet cursus quisque porta adipiscing. Lorem convallis malesuada sed maecenas. Ac dui at vitae mauris cursus in nullam porta sem. Quis pellentesque elementum ac bibendum. Nunc aliquam in tortor facilisis. Vulputate eget risus, metus phasellus. Pellentesque faucibus amet, eleifend diam quam condimentum convallis ultricies placerat. Duis habitasse placerat amet, odio pellentesque rhoncus, feugiat at. Eget pellentesque tristique felis magna fringilla.</p>
+            <div class="subscribe-buttons">
+                <button>240k subscribers</button>
+                <button>180k subscribers</button>
+            </div>
+        </div>
+    </div>
+</section>
