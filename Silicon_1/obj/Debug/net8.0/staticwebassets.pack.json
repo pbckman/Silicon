@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\_components.scss"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\_contact.scss"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\css\\scss\\_core.scss"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\components\\_switches.scss",
       "PackagePath": "staticwebassets\\css\\scss\\components\\_switches.scss"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\contact\\_index.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\contact\\_index.scss"
     },
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\core\\_colors.scss",
@@ -155,6 +163,10 @@
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\brands\\brand-logo-4.svg",
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo-4.svg"
+    },
+    {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\contact\\contact-map.svg",
+      "PackagePath": "staticwebassets\\images\\contact\\contact-map.svg"
     },
     {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\courses\\course-description.svg",

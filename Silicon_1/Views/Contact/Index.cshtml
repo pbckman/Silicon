@@ -5,7 +5,7 @@
 }
 
 <section>
-    <div class="wrapper-contact-us">
+    <div class="container wrapper-contact-us">
 
         <div class="contact-upper">
             <div class="title">
@@ -15,8 +15,8 @@
             <div class="request-prompt">
                 <div class="contact-email">
                     <img />
-                    <h4>Careers</h4>
-                    <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum. </p>
+                    <h4>Email us</h4>
+                    <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
                     <p>Leave a message -></p>
                 </div>
 
@@ -26,13 +26,6 @@
                     <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum. </p>
                     <p>Send an application -></p>
                 </div>
-            </div>
-        </div>
-
-
-        <div class="contact-lower">
-            <div class="image">
-
             </div>
         </div>
 
@@ -46,18 +39,13 @@
 
                 <div class="contact-input">
                     <div class="input-group">
-                        <input asp-for="FullName" />
                         <label asp-for="FullName"></label>
+                        <input asp-for="FullName" />
                     </div>
 
                     <div class="input-group">
-                        <input asp-for="Email" />
                         <label asp-for="Email"></label>
-                    </div>
-
-                    <div class="input-group">
-                        <input asp-for="ContactMessage" />
-                        <label asp-for="ContactMessage"></label>
+                        <input asp-for="Email" />
                     </div>
 
                     <div class="select">
@@ -74,10 +62,23 @@
                             }
                         </div>
                     </div>
+
+                    <div class="input-group">
+                        <label asp-for="ContactMessage"></label>
+                        <input asp-for="ContactMessage" />
+                    </div>
+
+                    
                 </div>
 
                 <button class="btn-standard" type="submit">Send Contact Request</button>
             </form>
+        </div>
+
+        <div class="contact-lower">
+            <div class="image">
+                <img src="~/images/contact/contact-map.svg" />
+            </div>
         </div>
     </div>
 </section>
