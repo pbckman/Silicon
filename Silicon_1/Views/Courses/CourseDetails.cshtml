@@ -4,34 +4,45 @@
     ViewData["Title"] = "Course Details";
 }
 
+
 <section class="course-details-container">
     <img src="~/images/courses/course-description.svg" />
-    <div class="course-detail-top">
+    <div class="course-detail-top container">
         <div class="nav-route">
 
         </div>
+        <div class="btn-course-det">
         @if (Model.IsBestseller)
         {
             <div class="bestseller">Best Seller</div>
         } 
         @if (Model.IsDigital)
         {
-            <div class="bestseller">Digital</div>
+            <div class="digital">Digital</div>
         }
+        </div>
         <h2>@Model.Title</h2>
         <p>@Model.CourseDetails.TitleDescription</p>
 
         <div class="course-rating">
-            <p><i></i>(@Model.NumberOfLikes reviews)</p>
-            <p><i></i>(@Model.NumberOfLikes likes)</p>
-            <p><i></i>(@Model.Hours hours)</p>
+            <div class="course-rating-icons course-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>(@Model.NumberOfLikes reviews)</p>
+            </div>
+            <div class="course-rating-icons course-thumb"><i class="fa-light fa-thumbs-up"></i><p>(@Model.NumberOfLikes likes)</p></div>
+            <div class="course-rating-icons course-hours"><i class="fa-regular fa-clock"></i><p>(@Model.Hours hours)</p></div>
+            
         </div>
 
         <div class="author-details">
             <img src="~/images/authors/@Model.CourseDetails.AuthorImgUrl"/>
 
             <div class="author-name">
-                <p>Created by</p>
+                <h5>Created by</h5>
                 <p>@Model.Author</p>
             </div>
         </div>
@@ -43,23 +54,42 @@
         </div>
         <div class="will-learn">
             <h3>What You Will Learn</h3>
-            <ul>
+            
                 @foreach (var item in Model.CourseDetails.WhatYouWillLearn)
                 {
-                    <li>@item</li>
+                    <div class="will-learn-check">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <p>@item</p>
+                    </div>
                 }
-            </ul>
+            
         </div>
 
         <div class="course-includes">
             <h4>This course includes:</h4>
             
             <div class="include-list">
-                <p><i></i>(@Model.Hours hours)</p>
-                <p><i></i>18 articles</p>
-                <p><i></i>25 downloadable resources</p>
-                <p><i></i>Full time access</p>
-                <p><i></i>Certificate completion</p>
+                <div class="include-list-options">
+                    <i class="fa-solid fa-display"></i>
+                    <p>@Model.Hours hours on-demand video</p>
+                </div>
+                <div class="include-list-options">
+                    <i class="fa-light fa-file-lines"></i>
+                    <p>18 articles</p>
+                </div>
+                <div class="include-list-options">
+                    <i class="fa-sharp fa-regular fa-arrow-down-to-bracket"></i>
+                    <p>25 downloadable resources</p>
+                </div>
+                <div class="include-list-options">
+                    <i class="fa-solid fa-infinity"></i>
+                    <p>Full time access</p>
+                </div>
+                <div class="include-list-options">
+                    <i class="fa-sharp fa-regular fa-trophy"></i>
+                    <p>Certificate completion</p>
+                </div>
+                
             </div>
 
             <div class="pricing">
@@ -68,31 +98,52 @@
                     <div class="discount">@Model.DiscountPrice</div>
                 }
 
-                <div class="original @(!string.IsNullOrEmpty(@Model.DiscountPrice) ? "discount-enabled" : "")">@Model.OriginalPrice</div>
+                <div class="original @(!string.IsNullOrEmpty(@Model.DiscountPrice) ? "discount-enabled" : "")">
+                    <h2>@Model.OriginalPrice</h2>
+                </div>
             </div>
-            <button></button>
+            <button class="btn-standard">Join course</button>
     </div>
 
     <div class="program-details">
             <h2>Program Details</h2>
                 @foreach (var detail in Model.CourseDetails.ProgramDetails)
                 {
-                <div class="prog-number">@detail.Title - @detail.Text </div>
+                <div class="prog-details-wrapper">
+                    <div class="circle-container">
+                     <div class="number-lg-circle">
+                        </div>
+                        <div style="height: 50px;"></div>
+                        <div class="number-sm-circle">
+                            <h4>@detail.Number</h4>
+                        </div>
+                    </div>
+                    <div class="prog-text">
+                        <h5>@detail.Title</h5>
+                        <p >@detail.Text </p>
+                    </div>
+                </div>
                 }
         </div>
     </div>
 
     <div class="course-detail-bottom">
         <div class="author-pic-lg">
-
+            <img src="~/images/authors/course-details-author.svg" />
         </div>
         <div class="author-info">
+           <div class="author-text-info">
             <h5>Learn from the best</h5>
-            <h2></h2>
+            <h2>@Model.Author</h2>
             <p>Dolor ipsum amet cursus quisque porta adipiscing. Lorem convallis malesuada sed maecenas. Ac dui at vitae mauris cursus in nullam porta sem. Quis pellentesque elementum ac bibendum. Nunc aliquam in tortor facilisis. Vulputate eget risus, metus phasellus. Pellentesque faucibus amet, eleifend diam quam condimentum convallis ultricies placerat. Duis habitasse placerat amet, odio pellentesque rhoncus, feugiat at. Eget pellentesque tristique felis magna fringilla.</p>
             <div class="subscribe-buttons">
-                <button>240k subscribers</button>
-                <button>180k subscribers</button>
+                <button class="btn-standard youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    240k subscribers</button>
+                <button class="btn-standard facebook">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    180k subscribers</button>
+            </div>
             </div>
         </div>
     </div>

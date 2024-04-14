@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OmdwpTpAG5ce565Ug6nqP+evlWtzNNnFVcLWv/Zat2w=",
+  "Hash": "K0wg8mFkrTCDOiFXj7S72VjCLM+ntHel6eqRJTRdiRA=",
   "Source": "Silicon_1",
   "BasePath": "_content/Silicon_1",
   "Mode": "Default",
@@ -245,6 +245,25 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\core\\_media.scss"
     },
     {
+      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\_coursedetails.scss",
+      "SourceId": "Silicon_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
+      "BasePath": "_content/Silicon_1",
+      "RelativePath": "css/scss/courses/_coursedetails.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\scss\\courses\\_coursedetails.scss"
+    },
+    {
       "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
       "SourceId": "Silicon_1",
       "SourceType": "Discovered",
@@ -262,25 +281,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\scss\\courses\\_index.scss"
-    },
-    {
-      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\CourseDetails.scss",
-      "SourceId": "Silicon_1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
-      "BasePath": "_content/Silicon_1",
-      "RelativePath": "css/scss/courses/CourseDetails.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\scss\\courses\\CourseDetails.scss"
     },
     {
       "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\sections\\_account.scss",
@@ -661,6 +661,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\authors\\author_1.svg"
+    },
+    {
+      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\authors\\course-details-author.svg",
+      "SourceId": "Silicon_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
+      "BasePath": "_content/Silicon_1",
+      "RelativePath": "images/authors/course-details-author.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\authors\\course-details-author.svg"
     },
     {
       "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\brands\\brand-logo-1.svg",
