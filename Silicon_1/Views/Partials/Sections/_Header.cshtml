@@ -5,7 +5,7 @@
     var user = await _userManager.GetUserAsync(User);
 }
 
-<header>
+<header class="@Html.IsActive("Contact", "Index")">
         <div class="container">
             <a class="logo" asp-action="Index" asp-controller="Home"><img src="~/images/logo/logo-@(theme).svg" alt="Silicon" /></a>
 

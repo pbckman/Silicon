@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\wwwroot\\css\\scss\\contact\\_index.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\wwwroot\\css\\scss\\contact\\_index.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
       "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|c:\\skoluppgifter\\aspnet_1\\silicon_1\\silicon_1\\wwwroot\\css\\scss\\core\\_fonts.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{B4B7A50D-7E15-49F1-B8B6-7500FAA854DA}|Silicon_1\\Silicon_1.csproj|solutionrelative:silicon_1\\wwwroot\\css\\scss\\core\\_fonts.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,47 +40,60 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_fonts.scss",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\core\\_fonts.scss",
-              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\css\\scss\\core\\_fonts.scss",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\core\\_fonts.scss",
-              "RelativeToolTip": "Silicon_1\\wwwroot\\css\\scss\\core\\_fonts.scss",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAADYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-04-15T13:25:12.256Z",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "Silicon_1\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "Silicon_1\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T16:01:26.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_index.scss",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
-              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
-              "RelativeToolTip": "Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAAANoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-04-15T13:16:04.931Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Silicon_1\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Silicon_1\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T13:40:39.406Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Courses\\Index.cshtml",
-              "RelativeDocumentMoniker": "Silicon_1\\Views\\Courses\\Index.cshtml",
-              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\Views\\Courses\\Index.cshtml",
-              "RelativeToolTip": "Silicon_1\\Views\\Courses\\Index.cshtml",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAgwG4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T13:15:49.534Z",
+              "DocumentIndex": 2,
+              "Title": "_index.scss",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
+              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
+              "RelativeToolTip": "Silicon_1\\wwwroot\\css\\scss\\courses\\_index.scss",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-15T15:52:26.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_index.scss",
+              "DocumentMoniker": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\contact\\_index.scss",
+              "RelativeDocumentMoniker": "Silicon_1\\wwwroot\\css\\scss\\contact\\_index.scss",
+              "ToolTip": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\css\\scss\\contact\\_index.scss",
+              "RelativeToolTip": "Silicon_1\\wwwroot\\css\\scss\\contact\\_index.scss",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-15T13:40:34.654Z",
               "EditorCaption": ""
             }
           ]
