@@ -173,6 +173,10 @@
       "PackagePath": "staticwebassets\\images\\courses\\course-description.svg"
     },
     {
+      "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\courses\\course-illustration.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course-illustration.svg"
+    },
+    {
       "Id": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\courses\\course_1.svg",
       "PackagePath": "staticwebassets\\images\\courses\\course_1.svg"
     },

@@ -61,10 +61,11 @@
     font-weight: var(--font-weight-extrabold);
 }
 
-    @mixin font-h2 {
-        @include font-d-h;
-        font-size: 2em;
-    }
+@mixin font-h2 {
+    @include font-d-h;
+    font-size: 2em;
+    font-weight: var(--font-weight-bold);
+}
 
     @mixin font-h3 {
         @include font-d-h;

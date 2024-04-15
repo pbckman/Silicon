@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dQ4Kt+Wna8pqdqHye3k1tfSymoe+v2SfQJM3x/f2s1I=",
+  "Hash": "D5SRBudIwEBN/loYvE4JXZQyQes4ZMUx09lG9WrvuLs=",
   "Source": "Silicon_1",
   "BasePath": "_content/Silicon_1",
   "Mode": "Default",
@@ -1022,6 +1022,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\courses\\course-description.svg"
+    },
+    {
+      "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\courses\\course-illustration.svg",
+      "SourceId": "Silicon_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\",
+      "BasePath": "_content/Silicon_1",
+      "RelativePath": "images/courses/course-illustration.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\courses\\course-illustration.svg"
     },
     {
       "Identity": "C:\\Skoluppgifter\\ASPNET_1\\Silicon_1\\Silicon_1\\wwwroot\\images\\download\\appstore.svg",
