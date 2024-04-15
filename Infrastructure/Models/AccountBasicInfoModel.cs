@@ -20,6 +20,6 @@ public class AccountBasicInfoModel
     [Display(Name = "Phone", Prompt = "Enter your phone number")]
     public string? PhoneNumber { get; set; }
 
-    [Display(Name = "Bio (Optional)", Prompt = "Add a short bio...")]
+    [Display(Name = "Bio", Prompt = "Add a short bio...")]
     public string? Biography {  get; set; }
 }

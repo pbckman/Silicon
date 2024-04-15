@@ -37,7 +37,10 @@
                 </div>
                 </div>
                 <div class="input-group input-bio">
+                    <div class="input-bio-opt">
                     <label asp-for="AccountBasicInfo.Biography"></label>
+                    <span>(optional)</span>
+                    </div>
                     <textarea asp-for="AccountBasicInfo.Biography"></textarea>
                     <span asp-validation-for="AccountBasicInfo.Biography"></span>
                 </div>
@@ -60,7 +63,10 @@
                     <span asp-validation-for="AddressInfo.AddressLine_1"></span>
                 </div>
                 <div class="input-group">
+                    <div class="input-bio-opt">
                     <label asp-for="AddressInfo.AddressLine_2"></label>
+                        <span>(optional)</span>
+                    </div>
                     <input asp-for="AddressInfo.AddressLine_2" />
                     <span asp-validation-for="AddressInfo.AddressLine_2"></span>
                 </div>

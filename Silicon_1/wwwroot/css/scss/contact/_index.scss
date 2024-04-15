@@ -80,10 +80,18 @@
                 margin-bottom: 5px;
             }
 
-           
+            .select {
+                background-position: right 10px center;
+                
+                
+            }
 
             .selected {
                 border: 2px solid var(--color-gray-400);
+
+                span {
+                    color: var(--color-gray-400);
+                }
             }
 
             .optional-input {
@@ -120,7 +128,6 @@
 
             img {
                 position: absolute;
-                
             }
         }
     }

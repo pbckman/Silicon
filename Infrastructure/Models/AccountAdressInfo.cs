@@ -8,7 +8,7 @@ public class AccountAddressInfo
     [Display(Name = "Addressline 1", Prompt = "Enter your adress")]
     public string AddressLine_1 { get; set; } = null!;
 
-    [Display(Name = "Addressline 2 (Optional)", Prompt = "Enter your adress")]
+    [Display(Name = "Addressline 2 ", Prompt = "Enter your adress")]
     public string? AddressLine_2 { get; set;}
 
     [Required(ErrorMessage = "You must enter a postal code")]

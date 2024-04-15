@@ -1055,8 +1055,15 @@ footer .container .copyright span {
   color: var(--color-gray-900);
   font-weight: var(--font-weight-bold);
   font-size: 16px;
+  margin-bottom: 10px;
 }
 .sign-in .container form .input-group label {
+  margin-bottom: 5px;
+}
+.sign-in .container form .input-group span {
+  margin-top: 0;
+}
+.sign-in .container form .input-group input {
   margin-bottom: 5px;
 }
 .sign-in .container form .checkbox-group {
@@ -1256,6 +1263,11 @@ section .container-account .account-info form .grid-account-container .input-gro
 section .container-account .account-info form .input-bio textarea {
   height: 100%;
 }
+section .container-account .account-info form .input-bio .input-bio-opt {
+  display: flex;
+  gap: 5px;
+  color: var(--color-gray-600);
+}
 section .container-account .account-info form button {
   font-weight: 600;
 }
@@ -1276,6 +1288,11 @@ section .container-account .address-info {
 section .container-account .address-info textarea {
   padding: 0;
   margin: 5px 0px 20px;
+}
+section .container-account .address-info .input-bio-opt {
+  display: flex;
+  gap: 5px;
+  color: var(--color-gray-600);
 }
 section .container-account .address-info .address-info-title h5 {
   margin-bottom: 5px;
@@ -1359,6 +1376,7 @@ section .container-account h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .account-profile .info {
   padding-top: 20px;
@@ -1974,8 +1992,14 @@ section .container-account h5 {
   font-weight: 800;
   margin-bottom: 5px;
 }
+.wrapper-contact-us .container .contact-form .select {
+  background-position: right 10px center;
+}
 .wrapper-contact-us .container .contact-form .selected {
   border: 2px solid var(--color-gray-400);
+}
+.wrapper-contact-us .container .contact-form .selected span {
+  color: var(--color-gray-400);
 }
 .wrapper-contact-us .container .contact-form .optional-input {
   display: flex;
