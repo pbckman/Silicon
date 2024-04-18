@@ -5,23 +5,17 @@
     margin-right: auto;
     margin-left: auto;
 
-    @include sm {
-        max-width: 540px;
-    }
 
-    @include md {
+    @include sm {
         max-width: 720px;
     }
 
-    @include lg {
+    @include md {
         max-width: 960px;
     }
 
     @include xl {
-        max-width: 1140px;
-    }
-
-    @include xxl {
         max-width: 1320px;
     }
+
 }

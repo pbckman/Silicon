@@ -40,6 +40,47 @@
         left: 50%;
         top: 55%;
         transform: translate(-50%, -50%);
+        display: none;
+
+        @include sm {
+            display: none;
+        }
+
+        @include md {
+            display: block;
+        }
+
+        @include xl {
+            display: block;
+        }
+    }
+
+    .macbook-small {
+        display: block;
+        position: absolute;
+        padding-top: 250px;
+
+
+        .btn-switchmode {
+            position: absolute;
+            margin-top: 100px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        @include sm {
+            display: block;
+        }
+
+        @include md {
+            display: none;
+        }
+
+        @include xl {
+            display: none;
+        }
     }
 
     .macbook-border {

@@ -25,14 +25,14 @@ footer {
             margin-left: auto;
             margin-right: auto;
 
-            @include lg {
+            @include xl {
                 width: 60%;
             }
 
             span {
                 display: none;
 
-                @include xxl {
+                @include xl {
                     display: inline;
                 }
             }

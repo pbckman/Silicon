@@ -1,20 +1,51 @@
 .download {
     background-color: var(--color-gray-100);
     padding: 80px;
-    
+
 
     .container {
         display: flex;
         gap: 150px;
 
 
-        .dowload-img { 
+        .download-img {
+            display: none;
+
+            @include sm {
+                display: none;
+            }
+
+            @include md {
+                display: none;
+            }
+
+            @include xl {
+                display: block;
+            }
         }
 
         .download-app {
             @include font;
-            display: grid;
-            align-items: center;
+            
+            margin-left: auto;
+            margin-right: auto;
+
+            @include sm {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            @include md {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            @include xl {
+                display: grid;
+                align-items: center;
+                margin-left: auto;
+            }
+
 
             .download-title {
                 width: 60%;
