@@ -16,8 +16,19 @@
         position: absolute;
         top: 10%;
         color: white;
-        margin-left: 18%;
+        margin-left: 3%;
 
+        @include sm {
+            margin-left: 3%;
+        }
+
+        @include md {
+            margin-left: 18%;
+        }
+
+        @include xl {
+            margin-left: 18%;
+        }
 
         .nav-route {
         }
@@ -146,13 +157,37 @@
     }
 
     .course-detail-middle {
-        margin-left: 18%;
+        margin-left: 3%;
         position: relative;
         width: 130vh;
         margin-top: 5%;
 
+        @include sm {
+            margin-left: 3%;
+        }
+
+        @include md {
+            margin-left: 18%;
+        }
+
+        @include xl {
+            margin-left: 18%;
+        }
+
         .course-detail-description {
-            width: 75vh;
+            width: 47vh;
+
+            @include sm {
+                width: 50vh;
+            }
+
+            @include md {
+                width: 75vh;
+            }
+
+            @include xl {
+                width: 75vh;
+            }
 
             h2 {
                 @include font-h1;
@@ -162,6 +197,19 @@
 
         .will-learn {
             margin-top: 3rem;
+            width: 47vh;
+
+            @include sm {
+                width: 50vh;
+            }
+
+            @include md {
+                width: 75vh;
+            }
+
+            @include xl {
+                width: 75vh;
+            }
 
             .will-learn-check {
                 display: flex;
@@ -187,14 +235,26 @@
         }
 
         .course-includes {
-            position: absolute;
-            right: 0;
-            top: 0;
             border-radius: 4px;
             padding: 30px;
             transition: box-shadow 0.3s ease;
             box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
             width: 37vh;
+            margin-top: 50px;
+
+            @include sm {
+                margin-top: 50px;
+            }
+
+            @include md {
+                margin-top: 50px;
+            }
+
+            @include xl {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
 
             h4 {
                 @include font-h4;
@@ -237,7 +297,19 @@
 
         .program-details {
             margin-top: 7rem;
+            width: 47vh;
 
+            @include sm {
+                width: 50vh;
+            }
+
+            @include md {
+                width: 75vh;
+            }
+
+            @include xl {
+                width: 75vh;
+            }
 
             h2 {
                 @include font-h1;
@@ -313,11 +385,24 @@
     }
 
     .course-detail-bottom {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: none;
         margin-top: 50px;
         margin-bottom: 50px;
+
+
+        @include sm {
+            display: none;
+        }
+
+        @include md {
+            display: none;
+        }
+
+        @include xl {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
         img {
             height: 480px;

@@ -5,11 +5,25 @@
     .container {
 
         .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             margin-bottom: 2rem;
             margin-top: 2rem;
+            display: grid;
+
+            @include sm {
+                display: grid;
+            }
+
+            @include md {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            @include xl {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
 
             h1 {
                 @include font-h1;
@@ -17,10 +31,31 @@
 
 
             .filters {
-                display: flex;
+                display: grid;
                 align-items: center;
-                justify-content: end;
+                justify-content: start;
                 gap: 1.5rem;
+
+                @include sm {
+                    display: grid;
+                    align-items: center;
+                    justify-content: start;
+                    gap: 1.5rem;
+                }
+
+                @include md {
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 1.5rem;
+                }
+
+                @include xl {
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 1.5rem;
+                }
 
                 select {
                 }
@@ -49,10 +84,25 @@
 
         .items {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 2rem;
             margin-top: 3rem;
             margin-bottom: 4rem;
+
+            @include sm {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            @include md {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            @include xl {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
 
             .course {
                 position: relative;
@@ -191,7 +241,7 @@
     }
 
     .course-get-started {
-        display: flex;
+        display: none;
         background-color: var(--color-gray-100);
         border-radius: 8px;
         padding: 40px;
@@ -199,6 +249,18 @@
         justify-content: center;
         margin-top: 80px;
         gap: 70px;
+
+        @include sm {
+            display: none;
+        }
+
+        @include md {
+            display: flex;
+        }
+
+        @include xl {
+            display: flex;
+        }
 
         .get-started {
             width: 30%;

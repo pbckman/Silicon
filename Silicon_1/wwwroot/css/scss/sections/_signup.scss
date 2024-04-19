@@ -12,9 +12,21 @@
     }
 
     .container {
-        width: 30%;
-        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
 
+        @include sm {
+            width: 90%;
+        }
+
+        @include md {
+            width: 40%;
+        }
+
+        @include xl {
+            width: 30%;
+        }
 
         .sign-title {
 
@@ -33,15 +45,29 @@
         }
 
         form {
+
             input {
                 margin-bottom: 15px !important;
                 margin-top: 5px;
             }
-            
+
 
             .signup-name {
-                display: flex;
-                gap: 20px;
+                display: grid;
+
+                @include sm {
+                    display: grid;
+                }
+
+                @include md {
+                    display: flex;
+                    gap: 20px;
+                }
+
+                @include xl {
+                    display: flex;
+                    gap: 20px;
+                }
             }
 
             .input-group {
@@ -72,10 +98,6 @@
                     align-items: center;
                     font-weight: var(--font-weight-regular);
                     color: var(--color-gray-700);
-                }
-
-                label {
-                    margin: 0;
                 }
             }
 
