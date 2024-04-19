@@ -2,8 +2,20 @@
     @include font;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
     position: relative;
+    height: 70vh;
+
+    @include sm {
+        height: 70vh;
+    }
+
+    @include md {
+        height: 100vh;
+    }
+
+    @include xl {
+        height: 100vh;
+    }
 
     .dark-switch-mode {
         background-color: var(--color-gray-900);

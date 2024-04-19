@@ -3,9 +3,19 @@ section {
 
     .container-account {
         display: grid;
-        margin-left: 100px;
+        margin-left: 10px;
 
+        @include sm {
+            margin-left: 10px;
+        }
 
+        @include md {
+            margin-left: 50px;
+        }
+
+        @include xl {
+            margin-left: 100px;
+        }
 
         .btn-account {
             @include btn-theme;
@@ -36,11 +46,26 @@ section {
                 }
 
                 .grid-account-container {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
                     gap: 20px;
                     padding: 0px;
                     margin-bottom: 1rem;
+                    display: grid;
+                    grid-template-columns: 1fr;
+
+                    @include sm {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                    }
+
+                    @include md {
+                        display: grid;
+                        grid-template-columns:1fr;
+                    }
+
+                    @include xl {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                    }
 
                     .input-group {
                         padding: 0px;
@@ -70,9 +95,22 @@ section {
                 .btn-details {
                     display: flex;
                     gap: 10px;
-                    width: 35%;
+                    
                     padding-bottom: 1rem;
                     margin-top: 2rem;
+                    width: 100%;
+
+                    @include sm {
+                        width: 100%;
+                    }
+
+                    @include md {
+                        width: 100%;
+                    }
+
+                    @include xl {
+                        width: 35%;
+                    }
 
                     .btn-gray {
                         width: 50%;
@@ -113,9 +151,27 @@ section {
                 .grid-address-container {
                     display: grid;
                     align-items: center;
-                    grid-template-columns: 1fr 1fr;
+                    grid-template-columns: 1fr;
                     gap: 20px;
                     padding-bottom: 2rem;
+
+                    @include sm {
+                        display: grid;
+                        align-items: center;
+                        grid-template-columns: 1fr;
+                    }
+
+                    @include md {
+                        display: grid;
+                        align-items: center;
+                        grid-template-columns:1fr;
+                    }
+
+                    @include xl {
+                        display: grid;
+                        align-items: center;
+                        grid-template-columns: 1fr 1fr;
+                    }
                 }
 
                 .input-group {
@@ -132,8 +188,20 @@ section {
                 .btn-details {
                     display: flex;
                     gap: 10px;
-                    width: 35%;
                     margin-bottom: 70px;
+                    width: 100%;
+
+                    @include sm {
+                        width: 100%;
+                    }
+
+                    @include md {
+                        width: 100%;
+                    }
+
+                    @include xl {
+                        width: 35%;
+                    }
 
                     button {
                         font-weight: 600;

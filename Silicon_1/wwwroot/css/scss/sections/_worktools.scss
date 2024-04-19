@@ -1,5 +1,17 @@
 .worktools {
-    padding: 90px;
+    padding: 20px;
+
+    @include sm {
+        padding: 20px;
+    }
+
+    @include md {
+        padding: 90px;
+    }
+
+    @include xl {
+        padding: 90px;
+    }
 
     .container {
 

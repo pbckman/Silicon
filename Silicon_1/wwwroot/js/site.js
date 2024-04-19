@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     handleProfileImageUpload()
     serviceId()
     deleteButton()
+    btnMenu()
 })
 
 
@@ -216,6 +217,21 @@ function deleteButton() {
         document.getElementById('confirmDeleteCheckbox').addEventListener('change', function () {
             document.getElementById('deleteButton').disabled = !this.checked;
         });
+    }
+    catch { }
+}
+
+function btnMenu() {
+    try {
+            const btnMenu = document.querySelector('.btn-menu');
+        const navigation = document.querySelector('nav');
+        const profileHeader = document.querySelector('.profile-header');
+
+        if (btnMenu)
+            btnMenu.addEventListener('click', function () {
+                navigation.classList.toggle('active');
+                profileHeader.classList.toggle('active');
+            });
     }
     catch { }
 }

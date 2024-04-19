@@ -16,6 +16,7 @@
                 <a asp-action="Index" asp-controller="Home">Overview</a>
                 <a asp-action="Index" asp-controller="Courses">Courses</a>
                 <a asp-action="Index" asp-controller="Contact">Contact</a>
+                <a class="mobile-detail-link" asp-action="Details" asp-controller="Account">Account Details</a>
             }
             else
             {
@@ -24,7 +25,6 @@
                 <a asp-action="Index" asp-controller="Contact">Contact</a>
             }
 
-          
             </nav>
 
             <div class="theme-switch" id="btn-switch">
@@ -39,16 +39,13 @@
             <div class="account-buttons">
             @if (_signInManager.IsSignedIn(User) && user != null)
             {
-                <div class="profile">
+                <div class="profile-header">
                     <div class="image">
                         <a asp-action="Details" asp-controller="Account">
                             <img class="default-profile-img" src="~/images/profiles/@user.ProfileImage" />
                         </a>
                     </div>
-                </div>
-
-
-                
+                </div>                
             }
             else
             {
@@ -58,7 +55,7 @@
                 
             </div>
 
-            <button class="btn-menu"><i class="fa-regular fa-bars"></i></button>
+            <button class="btn-menu" id="btnMenu"><i class="fa-regular fa-bars"></i></button>
 
         </div>
     </header>
